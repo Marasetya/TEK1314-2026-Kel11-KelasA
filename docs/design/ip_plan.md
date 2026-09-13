@@ -10,6 +10,7 @@
 | Pertemuan | 4 |
 | Tahap | Design Phase |
 
+|---|---|
 | Moh Rifky Marasetya | J0404231049 |
 | Muhammad Adam Ilyasa | J0404241048 | 
 | Nayla Januarisa Prihadi | J0404241149 | 
