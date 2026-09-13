@@ -9,8 +9,6 @@
 | Mata Kuliah | TEK1314 - Keamanan Siber |
 | Kelas | A |
 | Kelompok | 11 |
-| Pertemuan | 4 |
-| Tahap | Design Phase |
 
 ## Skenario Proyek
 
