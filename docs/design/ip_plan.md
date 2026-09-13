@@ -1,4 +1,4 @@
-# IP Plan — Kelompok 11 (TEK1314 Keamanan Siber)
+# IP Plan - Kelompok 11 (TEK1314 Keamanan Siber)
 
 ## 1. Identitas Kelompok
 
