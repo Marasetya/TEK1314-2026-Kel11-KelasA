@@ -1,0 +1,392 @@
+2026-11-25T09:49:25.478085+07:00 target-bilicheck sshd[1019]: Server listening on 0.0.0.0 port 22.
+2026-11-25T09:49:25.496922+07:00 target-bilicheck sshd[1019]: Server listening on :: port 22.
+2026-11-25T09:50:25.706163+07:00 target-bilicheck login[1033]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+2026-11-25T09:50:25.706284+07:00 target-bilicheck login[1033]: PAM adding faulty module: pam_lastlog.so
+2026-11-25T09:50:28.432528+07:00 target-bilicheck login[1033]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=socadmin
+2026-11-25T09:50:31.921383+07:00 target-bilicheck login[1033]: FAILED LOGIN (1) on '/dev/tty1' FOR 'socadmin', Authentication failure
+2026-11-25T09:51:15.181437+07:00 target-bilicheck login[1033]: pam_unix(login:session): session opened for user socadmin(uid=1000) by LOGIN(uid=0)
+2026-11-25T09:51:15.276465+07:00 target-bilicheck systemd-logind[784]: New session 1 of user socadmin.
+2026-11-25T09:51:15.342291+07:00 target-bilicheck (systemd): pam_unix(systemd-user:session): session opened for user socadmin(uid=1000) by socadmin(uid=0)
+2026-11-25T09:51:58.936583+07:00 target-bilicheck sshd[1525]: Accepted publickey for socadmin from 10.0.2.2 port 62134 ssh2: ED25519 SHA256:Wb8Xj3di82kXw55WybOiAMyMRY96qu6GoNQJQv54q6M
+2026-11-25T09:51:58.945440+07:00 target-bilicheck sshd[1525]: pam_unix(sshd:session): session opened for user socadmin(uid=1000) by socadmin(uid=0)
+2026-11-25T09:51:58.962633+07:00 target-bilicheck systemd-logind[784]: New session 3 of user socadmin.
+2026-11-25T09:55:02.020448+07:00 target-bilicheck CRON[1619]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T09:55:02.070451+07:00 target-bilicheck CRON[1619]: pam_unix(cron:session): session closed for user root
+2026-11-25T10:00:02.962602+07:00 target-bilicheck sudo: socadmin : TTY=pts/0 ; PWD=/home/socadmin ; USER=root ; COMMAND=/usr/bin/systemctl status ssh --no-pager
+2026-11-25T10:00:02.977153+07:00 target-bilicheck sudo: pam_unix(sudo:session): session opened for user root(uid=0) by socadmin(uid=1000)
+2026-11-25T10:00:03.105963+07:00 target-bilicheck sudo: pam_unix(sudo:session): session closed for user root
+2026-11-25T10:00:08.472090+07:00 target-bilicheck sudo: socadmin : TTY=pts/0 ; PWD=/home/socadmin ; USER=root ; COMMAND=/usr/bin/ss -lntp
+2026-11-25T10:00:08.475435+07:00 target-bilicheck sudo: pam_unix(sudo:session): session opened for user root(uid=0) by socadmin(uid=1000)
+2026-11-25T10:00:08.614003+07:00 target-bilicheck sudo: pam_unix(sudo:session): session closed for user root
+2026-11-25T10:00:14.581357+07:00 target-bilicheck sudo: socadmin : TTY=pts/0 ; PWD=/home/socadmin ; USER=root ; COMMAND=/usr/sbin/ufw status verbose
+2026-11-25T10:00:14.590283+07:00 target-bilicheck sudo: pam_unix(sudo:session): session opened for user root(uid=0) by socadmin(uid=1000)
+2026-11-25T10:00:14.821066+07:00 target-bilicheck sudo: pam_unix(sudo:session): session closed for user root
+2026-11-25T10:05:01.418325+07:00 target-bilicheck CRON[1796]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T10:05:01.433382+07:00 target-bilicheck CRON[1796]: pam_unix(cron:session): session closed for user root
+2026-11-25T10:15:01.585828+07:00 target-bilicheck CRON[1805]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T10:15:01.601210+07:00 target-bilicheck CRON[1805]: pam_unix(cron:session): session closed for user root
+2026-11-25T10:17:01.761817+07:00 target-bilicheck CRON[1814]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T10:17:01.785568+07:00 target-bilicheck CRON[1814]: pam_unix(cron:session): session closed for user root
+2026-11-25T10:20:39.701692+07:00 target-bilicheck sudo: socadmin : TTY=pts/0 ; PWD=/home/socadmin ; USER=root ; COMMAND=/usr/sbin/ufw status verbose
+2026-11-25T10:20:39.714011+07:00 target-bilicheck sudo: pam_unix(sudo:session): session opened for user root(uid=0) by socadmin(uid=1000)
+2026-11-25T10:20:39.842829+07:00 target-bilicheck sudo: pam_unix(sudo:session): session closed for user root
+2026-11-25T10:20:39.859304+07:00 target-bilicheck sudo: socadmin : TTY=pts/0 ; PWD=/home/socadmin ; USER=root ; COMMAND=/usr/sbin/ufw status numbered
+2026-11-25T10:20:39.860400+07:00 target-bilicheck sudo: pam_unix(sudo:session): session opened for user root(uid=0) by socadmin(uid=1000)
+2026-11-25T10:20:39.989231+07:00 target-bilicheck sudo: pam_unix(sudo:session): session closed for user root
+2026-11-25T10:20:40.003940+07:00 target-bilicheck sudo: socadmin : TTY=pts/0 ; PWD=/home/socadmin ; USER=root ; COMMAND=/usr/bin/ss -lntup
+2026-11-25T10:20:40.006266+07:00 target-bilicheck sudo: pam_unix(sudo:session): session opened for user root(uid=0) by socadmin(uid=1000)
+2026-11-25T10:20:40.065912+07:00 target-bilicheck sudo: pam_unix(sudo:session): session closed for user root
+2026-11-25T10:20:40.140474+07:00 target-bilicheck sudo: socadmin : TTY=pts/0 ; PWD=/home/socadmin ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-11-25T10:20:40.143574+07:00 target-bilicheck sudo: pam_unix(sudo:session): session opened for user root(uid=0) by socadmin(uid=1000)
+2026-11-25T10:20:40.278868+07:00 target-bilicheck sudo: pam_unix(sudo:session): session closed for user root
+2026-11-25T10:22:48.866023+07:00 target-bilicheck sshd[1885]: Connection closed by 192.168.11.100 port 54078
+2026-11-25T10:25:01.279138+07:00 target-bilicheck CRON[1920]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T10:25:01.291396+07:00 target-bilicheck CRON[1920]: pam_unix(cron:session): session closed for user root
+2026-11-25T10:34:31.959032+07:00 target-bilicheck sudo: socadmin : TTY=pts/0 ; PWD=/home/socadmin ; USER=root ; COMMAND=/usr/bin/grep API_TOKEN= /etc/bilicheck-api/bilicheck-api.env
+2026-11-25T10:34:31.977988+07:00 target-bilicheck sudo: pam_unix(sudo:session): session opened for user root(uid=0) by socadmin(uid=1000)
+2026-11-25T10:34:31.982604+07:00 target-bilicheck sudo: pam_unix(sudo:session): session closed for user root
+2026-11-25T10:35:01.304380+07:00 target-bilicheck CRON[1942]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T10:35:01.321505+07:00 target-bilicheck CRON[1942]: pam_unix(cron:session): session closed for user root
+2026-11-25T10:39:29.274889+07:00 target-bilicheck sudo: socadmin : TTY=pts/0 ; PWD=/home/socadmin ; USER=root ; COMMAND=/usr/bin/mosquitto_passwd /etc/mosquitto/passwd esp32_bilicheck
+2026-11-25T10:39:29.284723+07:00 target-bilicheck sudo: pam_unix(sudo:session): session opened for user root(uid=0) by socadmin(uid=1000)
+2026-11-25T10:39:35.415703+07:00 target-bilicheck sudo: pam_unix(sudo:session): session closed for user root
+2026-11-25T10:39:39.991358+07:00 target-bilicheck sudo: socadmin : TTY=pts/0 ; PWD=/home/socadmin ; USER=root ; COMMAND=/usr/bin/systemctl restart mosquitto
+2026-11-25T10:39:39.994562+07:00 target-bilicheck sudo: pam_unix(sudo:session): session opened for user root(uid=0) by socadmin(uid=1000)
+2026-11-25T10:39:40.199521+07:00 target-bilicheck sudo: pam_unix(sudo:session): session closed for user root
+2026-11-25T10:39:40.214130+07:00 target-bilicheck sudo: socadmin : TTY=pts/0 ; PWD=/home/socadmin ; USER=root ; COMMAND=/usr/bin/systemctl is-active mosquitto
+2026-11-25T10:39:40.216758+07:00 target-bilicheck sudo: pam_unix(sudo:session): session opened for user root(uid=0) by socadmin(uid=1000)
+2026-11-25T10:39:40.233953+07:00 target-bilicheck sudo: pam_unix(sudo:session): session closed for user root
+2026-11-25T10:41:44.048539+07:00 target-bilicheck sudo: socadmin : TTY=pts/0 ; PWD=/home/socadmin ; USER=root ; COMMAND=/usr/bin/grep -RnsE ^[[:space:]]*(include_dir|listener|allow_anonymous|password_file|acl_file|per_listener_settings) /etc/mosquitto/mosquitto.conf /etc/mosquitto/conf.d/
+2026-11-25T10:41:44.054162+07:00 target-bilicheck sudo: pam_unix(sudo:session): session opened for user root(uid=0) by socadmin(uid=1000)
+2026-11-25T10:41:44.088394+07:00 target-bilicheck sudo: pam_unix(sudo:session): session closed for user root
+2026-11-25T10:42:10.105004+07:00 target-bilicheck sudo: socadmin : TTY=pts/0 ; PWD=/home/socadmin ; USER=root ; COMMAND=/usr/bin/grep -q ^esp32_bilicheck: /etc/mosquitto/passwd
+2026-11-25T10:42:10.108804+07:00 target-bilicheck sudo: pam_unix(sudo:session): session opened for user root(uid=0) by socadmin(uid=1000)
+2026-11-25T10:42:10.120090+07:00 target-bilicheck sudo: pam_unix(sudo:session): session closed for user root
+2026-11-25T10:42:21.131308+07:00 target-bilicheck sudo: socadmin : TTY=pts/0 ; PWD=/home/socadmin ; USER=root ; COMMAND=/usr/bin/stat -c '%A %a %U:%G %n' /etc/mosquitto/passwd
+2026-11-25T10:42:21.133396+07:00 target-bilicheck sudo: pam_unix(sudo:session): session opened for user root(uid=0) by socadmin(uid=1000)
+2026-11-25T10:42:21.138905+07:00 target-bilicheck sudo: pam_unix(sudo:session): session closed for user root
+2026-11-25T10:42:26.344481+07:00 target-bilicheck sudo: socadmin : TTY=pts/0 ; PWD=/home/socadmin ; USER=root ; COMMAND=/usr/bin/journalctl -u mosquitto --since '15 minutes ago' --no-pager
+2026-11-25T10:42:26.344853+07:00 target-bilicheck sudo: pam_unix(sudo:session): session opened for user root(uid=0) by socadmin(uid=1000)
+2026-11-25T10:42:26.500344+07:00 target-bilicheck sudo: pam_unix(sudo:session): session closed for user root
+2026-11-25T10:43:02.651414+07:00 target-bilicheck sudo: socadmin : TTY=pts/0 ; PWD=/home/socadmin ; USER=root ; COMMAND=/usr/bin/mosquitto_passwd /etc/mosquitto/passwd esp32_bilicheck
+2026-11-25T10:43:02.653748+07:00 target-bilicheck sudo: pam_unix(sudo:session): session opened for user root(uid=0) by socadmin(uid=1000)
+2026-11-25T10:43:11.531917+07:00 target-bilicheck sudo: pam_unix(sudo:session): session closed for user root
+2026-11-25T10:43:18.832504+07:00 target-bilicheck sudo: socadmin : TTY=pts/0 ; PWD=/home/socadmin ; USER=mosquitto ; COMMAND=/usr/bin/test -r /etc/mosquitto/passwd
+2026-11-25T10:43:18.835902+07:00 target-bilicheck sudo: pam_unix(sudo:session): session opened for user mosquitto(uid=112) by socadmin(uid=1000)
+2026-11-25T10:43:18.855527+07:00 target-bilicheck sudo: pam_unix(sudo:session): session closed for user mosquitto
+2026-11-25T10:43:24.290713+07:00 target-bilicheck sudo: socadmin : TTY=pts/0 ; PWD=/home/socadmin ; USER=root ; COMMAND=/usr/bin/systemctl restart mosquitto
+2026-11-25T10:43:24.293318+07:00 target-bilicheck sudo: pam_unix(sudo:session): session opened for user root(uid=0) by socadmin(uid=1000)
+2026-11-25T10:43:24.508687+07:00 target-bilicheck sudo: pam_unix(sudo:session): session closed for user root
+2026-11-25T10:43:27.500624+07:00 target-bilicheck sudo: socadmin : TTY=pts/0 ; PWD=/home/socadmin ; USER=root ; COMMAND=/usr/bin/systemctl is-active mosquitto
+2026-11-25T10:43:27.504527+07:00 target-bilicheck sudo: pam_unix(sudo:session): session opened for user root(uid=0) by socadmin(uid=1000)
+2026-11-25T10:43:27.522227+07:00 target-bilicheck sudo: pam_unix(sudo:session): session closed for user root
+2026-11-25T10:43:30.832618+07:00 target-bilicheck sudo: socadmin : TTY=pts/0 ; PWD=/home/socadmin ; USER=root ; COMMAND=/usr/bin/journalctl -u mosquitto -n 30 --no-pager
+2026-11-25T10:43:30.833040+07:00 target-bilicheck sudo: pam_unix(sudo:session): session opened for user root(uid=0) by socadmin(uid=1000)
+2026-11-25T10:43:30.886394+07:00 target-bilicheck sudo: pam_unix(sudo:session): session closed for user root
+2026-11-25T10:45:01.474942+07:00 target-bilicheck CRON[2024]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T10:45:01.488039+07:00 target-bilicheck CRON[2024]: pam_unix(cron:session): session closed for user root
+2026-11-25T10:45:35.073386+07:00 target-bilicheck sshd[2027]: Invalid user soc_test from 192.168.11.100 port 56324
+2026-11-25T10:45:35.083551+07:00 target-bilicheck sshd[2027]: Connection closed by invalid user soc_test 192.168.11.100 port 56324 [preauth]
+2026-11-25T10:45:57.109750+07:00 target-bilicheck sshd[2030]: Invalid user soc_test from 192.168.11.100 port 35860
+2026-11-25T10:45:57.143363+07:00 target-bilicheck sshd[2030]: Connection closed by invalid user soc_test 192.168.11.100 port 35860 [preauth]
+2026-11-25T10:45:57.309060+07:00 target-bilicheck sshd[2032]: Invalid user soc_test from 192.168.11.100 port 35876
+2026-11-25T10:45:57.328543+07:00 target-bilicheck sshd[2032]: Connection closed by invalid user soc_test 192.168.11.100 port 35876 [preauth]
+2026-11-25T10:45:57.471940+07:00 target-bilicheck sshd[2034]: Invalid user soc_test from 192.168.11.100 port 35884
+2026-11-25T10:45:57.495443+07:00 target-bilicheck sshd[2034]: Connection closed by invalid user soc_test 192.168.11.100 port 35884 [preauth]
+2026-11-25T10:46:09.378198+07:00 target-bilicheck sudo: socadmin : TTY=pts/0 ; PWD=/home/socadmin ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-11-25T10:46:09.390746+07:00 target-bilicheck sudo: pam_unix(sudo:session): session opened for user root(uid=0) by socadmin(uid=1000)
+2026-11-25T10:46:09.494322+07:00 target-bilicheck sudo: pam_unix(sudo:session): session closed for user root
+2026-11-25T10:55:01.573175+07:00 target-bilicheck CRON[2048]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T10:55:01.601459+07:00 target-bilicheck CRON[2048]: pam_unix(cron:session): session closed for user root
+2026-11-25T11:02:39.739106+07:00 target-bilicheck sshd[2061]: Connection closed by 192.168.11.100 port 36722
+2026-11-25T11:02:53.354693+07:00 target-bilicheck sudo: socadmin : TTY=pts/0 ; PWD=/home/socadmin ; USER=root ; COMMAND=/usr/sbin/ufw status numbered
+2026-11-25T11:02:53.369063+07:00 target-bilicheck sudo: pam_unix(sudo:session): session opened for user root(uid=0) by socadmin(uid=1000)
+2026-11-25T11:02:53.558907+07:00 target-bilicheck sudo: pam_unix(sudo:session): session closed for user root
+2026-11-25T11:02:53.573657+07:00 target-bilicheck sudo: socadmin : TTY=pts/0 ; PWD=/home/socadmin ; USER=root ; COMMAND=/usr/bin/ss -lntup
+2026-11-25T11:02:53.575543+07:00 target-bilicheck sudo: pam_unix(sudo:session): session opened for user root(uid=0) by socadmin(uid=1000)
+2026-11-25T11:02:53.608208+07:00 target-bilicheck sudo: pam_unix(sudo:session): session closed for user root
+2026-11-25T11:02:53.690370+07:00 target-bilicheck sudo: socadmin : TTY=pts/0 ; PWD=/home/socadmin ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-11-25T11:02:53.692870+07:00 target-bilicheck sudo: pam_unix(sudo:session): session opened for user root(uid=0) by socadmin(uid=1000)
+2026-11-25T11:02:53.807637+07:00 target-bilicheck sudo: pam_unix(sudo:session): session closed for user root
+2026-11-25T11:03:29.636886+07:00 target-bilicheck sshd[2108]: Connection closed by 192.168.11.100 port 54742
+2026-11-25T11:05:01.639389+07:00 target-bilicheck CRON[2141]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T11:05:01.653591+07:00 target-bilicheck CRON[2141]: pam_unix(cron:session): session closed for user root
+2026-11-25T11:10:24.884364+07:00 target-bilicheck sudo: socadmin : TTY=pts/0 ; PWD=/home/socadmin ; USER=root ; COMMAND=/usr/bin/grep API_TOKEN= /etc/bilicheck-api/bilicheck-api.env
+2026-11-25T11:10:24.903720+07:00 target-bilicheck sudo: pam_unix(sudo:session): session opened for user root(uid=0) by socadmin(uid=1000)
+2026-11-25T11:10:24.931044+07:00 target-bilicheck sudo: pam_unix(sudo:session): session closed for user root
+2026-11-25T11:15:01.032301+07:00 target-bilicheck CRON[3268]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T11:15:01.071952+07:00 target-bilicheck CRON[3268]: pam_unix(cron:session): session closed for user root
+2026-11-25T11:17:01.154113+07:00 target-bilicheck CRON[3273]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T11:17:01.164295+07:00 target-bilicheck CRON[3273]: pam_unix(cron:session): session closed for user root
+2026-11-25T11:25:01.210998+07:00 target-bilicheck CRON[3365]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T11:25:01.224385+07:00 target-bilicheck CRON[3365]: pam_unix(cron:session): session closed for user root
+2026-11-25T11:33:07.118044+07:00 target-bilicheck sudo: socadmin : TTY=pts/0 ; PWD=/home/socadmin ; USER=root ; COMMAND=/usr/bin/grep API_TOKEN= /etc/bilicheck-api/bilicheck-api.env
+2026-11-25T11:33:07.134295+07:00 target-bilicheck sudo: pam_unix(sudo:session): session opened for user root(uid=0) by socadmin(uid=1000)
+2026-11-25T11:33:07.135535+07:00 target-bilicheck sudo: pam_unix(sudo:session): session closed for user root
+2026-11-25T11:35:01.962317+07:00 target-bilicheck CRON[3382]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T11:35:02.000396+07:00 target-bilicheck CRON[3382]: pam_unix(cron:session): session closed for user root
+                                                                                                                                    2026-11-25T12:25:34.931434+07:00 target-bilicheck systemd-logind[784]: New seat seat0.
+2026-11-25T12:25:34.931441+07:00 target-bilicheck systemd-logind[784]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-11-25T12:25:34.931453+07:00 target-bilicheck systemd-logind[784]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-11-25T12:25:34.931463+07:00 target-bilicheck systemd-logind[784]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-11-25T12:25:34.931506+07:00 target-bilicheck polkitd[774]: Loading rules from directory /etc/polkit-1/rules.d
+2026-11-25T12:25:34.931514+07:00 target-bilicheck polkitd[774]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-11-25T12:25:34.789423+07:00 target-bilicheck polkitd[774]: Finished loading, compiling and executing 6 rules
+2026-11-25T12:25:34.854677+07:00 target-bilicheck polkitd[774]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-11-25T12:25:50.379033+07:00 target-bilicheck sshd[969]: Server listening on 0.0.0.0 port 22.
+2026-11-25T12:25:50.404417+07:00 target-bilicheck sshd[969]: Server listening on :: port 22.
+2026-11-25T12:35:01.797374+07:00 target-bilicheck CRON[1366]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T12:35:01.828796+07:00 target-bilicheck CRON[1366]: pam_unix(cron:session): session closed for user root
+2026-11-25T12:45:01.875547+07:00 target-bilicheck CRON[1383]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T12:45:01.910919+07:00 target-bilicheck CRON[1383]: pam_unix(cron:session): session closed for user root
+2026-11-25T12:55:01.966234+07:00 target-bilicheck CRON[1398]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T12:55:02.024346+07:00 target-bilicheck CRON[1398]: pam_unix(cron:session): session closed for user root
+2026-11-25T12:55:58.070264+07:00 target-bilicheck login[978]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+2026-11-25T12:55:58.085456+07:00 target-bilicheck login[978]: PAM adding faulty module: pam_lastlog.so
+2026-11-25T12:56:04.268153+07:00 target-bilicheck login[978]: pam_unix(login:session): session opened for user socadmin(uid=1000) by socadmin(uid=0)
+2026-11-25T12:56:04.389508+07:00 target-bilicheck systemd-logind[784]: New session 4 of user socadmin.
+2026-11-25T12:56:04.507963+07:00 target-bilicheck (systemd): pam_unix(systemd-user:session): session opened for user socadmin(uid=1000) by socadmin(uid=0)
+2026-11-25T12:56:41.080170+07:00 target-bilicheck sshd[1530]: Accepted publickey for socadmin from 10.0.2.2 port 63877 ssh2: ED25519 SHA256:Wb8Xj3di82kXw55WybOiAMyMRY96qu6GoNQJQv54q6M
+2026-11-25T12:56:41.092313+07:00 target-bilicheck sshd[1530]: pam_unix(sshd:session): session opened for user socadmin(uid=1000) by socadmin(uid=0)
+2026-11-25T12:56:41.126781+07:00 target-bilicheck systemd-logind[784]: New session 6 of user socadmin.
+2026-11-25T13:05:01.092102+07:00 target-bilicheck CRON[1601]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T13:05:01.171470+07:00 target-bilicheck CRON[1601]: pam_unix(cron:session): session closed for user root
+2026-11-25T13:15:01.242394+07:00 target-bilicheck CRON[1614]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T13:15:01.322626+07:00 target-bilicheck CRON[1614]: pam_unix(cron:session): session closed for user root
+2026-11-25T13:17:01.473686+07:00 target-bilicheck CRON[1627]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T13:17:01.549082+07:00 target-bilicheck CRON[1627]: pam_unix(cron:session): session closed for user root
+2026-11-25T13:25:01.592316+07:00 target-bilicheck CRON[1637]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T13:25:01.653968+07:00 target-bilicheck CRON[1637]: pam_unix(cron:session): session closed for user root
+2026-11-25T13:35:01.788691+07:00 target-bilicheck CRON[1687]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T13:35:01.846414+07:00 target-bilicheck CRON[1687]: pam_unix(cron:session): session closed for user root
+2026-11-25T13:42:01.654579+07:00 target-bilicheck sudo: socadmin : TTY=pts/0 ; PWD=/home/socadmin ; USER=root ; COMMAND=/usr/bin/grep BILICHECK_API_TOKEN= /etc/bilicheck-api/bilicheck-api.env
+2026-11-25T13:42:01.667414+07:00 target-bilicheck sudo: pam_unix(sudo:session): session opened for user root(uid=0) by socadmin(uid=1000)
+2026-11-25T13:42:01.676058+07:00 target-bilicheck sudo: pam_unix(sudo:session): session closed for user root
+2026-11-25T13:45:01.890899+07:00 target-bilicheck CRON[1709]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T13:45:01.932863+07:00 target-bilicheck CRON[1709]: pam_unix(cron:session): session closed for user root
+2026-11-25T13:55:02.008945+07:00 target-bilicheck CRON[1723]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T13:55:02.084144+07:00 target-bilicheck CRON[1723]: pam_unix(cron:session): session closed for user root
+2026-11-25T14:05:01.115027+07:00 target-bilicheck CRON[1734]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T14:05:01.133130+07:00 target-bilicheck CRON[1734]: pam_unix(cron:session): session closed for user root
+2026-11-25T14:08:48.851573+07:00 target-bilicheck sudo: socadmin : TTY=pts/0 ; PWD=/home/socadmin ; USER=root ; COMMAND=/usr/bin/grep -RniE ^[[:space:]]*(listener|allow_anonymous|password_file|acl_file|per_listener_settings) /etc/mosquitto/
+2026-11-25T14:08:48.865503+07:00 target-bilicheck sudo: pam_unix(sudo:session): session opened for user root(uid=0) by socadmin(uid=1000)
+2026-11-25T14:08:48.899862+07:00 target-bilicheck sudo: pam_unix(sudo:session): session closed for user root
+2026-11-25T14:09:16.121386+07:00 target-bilicheck sudo: socadmin : TTY=pts/0 ; PWD=/home/socadmin ; USER=root ; COMMAND=/usr/bin/cut -d: -f1 /etc/mosquitto/passwd
+2026-11-25T14:09:16.125193+07:00 target-bilicheck sudo: pam_unix(sudo:session): session opened for user root(uid=0) by socadmin(uid=1000)
+2026-11-25T14:09:16.133426+07:00 target-bilicheck sudo: pam_unix(sudo:session): session closed for user root
+2026-11-25T14:09:37.478876+07:00 target-bilicheck sudo: socadmin : TTY=pts/0 ; PWD=/home/socadmin ; USER=root ; COMMAND=/usr/bin/journalctl -u mosquitto --since '15 minutes ago' --no-pager
+2026-11-25T14:09:37.484995+07:00 target-bilicheck sudo: pam_unix(sudo:session): session opened for user root(uid=0) by socadmin(uid=1000)
+2026-11-25T14:09:37.776898+07:00 target-bilicheck sudo: pam_unix(sudo:session): session closed for user root
+2026-11-25T14:10:04.911665+07:00 target-bilicheck sudo: socadmin : TTY=pts/0 ; PWD=/home/socadmin ; USER=root ; COMMAND=/usr/bin/systemctl status mosquitto --no-pager -l
+2026-11-25T14:10:04.925339+07:00 target-bilicheck sudo: pam_unix(sudo:session): session opened for user root(uid=0) by socadmin(uid=1000)
+2026-11-25T14:10:05.055920+07:00 target-bilicheck sudo: pam_unix(sudo:session): session closed for user root
+2026-11-25T14:10:22.768915+07:00 target-bilicheck sudo: socadmin : TTY=pts/0 ; PWD=/home/socadmin ; USER=root ; COMMAND=/usr/bin/ls -lah /var/log/mosquitto/
+2026-11-25T14:10:22.775288+07:00 target-bilicheck sudo: pam_unix(sudo:session): session opened for user root(uid=0) by socadmin(uid=1000)
+2026-11-25T14:10:22.798277+07:00 target-bilicheck sudo: pam_unix(sudo:session): session closed for user root
+2026-11-25T14:10:38.731271+07:00 target-bilicheck sudo: socadmin : TTY=pts/0 ; PWD=/home/socadmin ; USER=root ; COMMAND=/usr/bin/tail -n 50 /var/log/mosquitto/mosquitto.log
+2026-11-25T14:10:38.735416+07:00 target-bilicheck sudo: pam_unix(sudo:session): session opened for user root(uid=0) by socadmin(uid=1000)
+2026-11-25T14:10:38.754708+07:00 target-bilicheck sudo: pam_unix(sudo:session): session closed for user root
+2026-11-25T14:15:01.153432+07:00 target-bilicheck CRON[1773]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T14:15:01.165032+07:00 target-bilicheck CRON[1773]: pam_unix(cron:session): session closed for user root
+2026-11-25T14:17:01.174504+07:00 target-bilicheck CRON[1779]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T14:17:01.208804+07:00 target-bilicheck CRON[1779]: pam_unix(cron:session): session closed for user root
+2026-11-25T14:35:44.567205+07:00 target-bilicheck systemd-logind[780]: New seat seat0.
+2026-11-25T14:35:44.567212+07:00 target-bilicheck systemd-logind[780]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-11-25T14:35:44.567217+07:00 target-bilicheck systemd-logind[780]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-11-25T14:35:44.567221+07:00 target-bilicheck systemd-logind[780]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-11-25T14:35:44.567273+07:00 target-bilicheck polkitd[773]: Loading rules from directory /etc/polkit-1/rules.d
+2026-11-25T14:35:44.567276+07:00 target-bilicheck polkitd[773]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-11-25T14:35:44.010218+07:00 target-bilicheck polkitd[773]: Finished loading, compiling and executing 6 rules
+2026-11-25T14:35:44.020954+07:00 target-bilicheck polkitd[773]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-11-25T14:35:47.778047+07:00 target-bilicheck sshd[941]: Server listening on 0.0.0.0 port 22.
+2026-11-25T14:35:47.778345+07:00 target-bilicheck sshd[941]: Server listening on :: port 22.
+2026-11-25T14:44:28.986425+07:00 target-bilicheck login[967]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+2026-11-25T14:44:28.990273+07:00 target-bilicheck login[967]: PAM adding faulty module: pam_lastlog.so
+2026-11-25T14:44:31.956449+07:00 target-bilicheck login[967]: pam_unix(login:session): session opened for user socadmin(uid=1000) by socadmin(uid=0)
+2026-11-25T14:44:32.004692+07:00 target-bilicheck systemd-logind[780]: New session 1 of user socadmin.
+2026-11-25T14:44:32.116470+07:00 target-bilicheck (systemd): pam_unix(systemd-user:session): session opened for user socadmin(uid=1000) by socadmin(uid=0)
+2026-11-25T14:45:01.146059+07:00 target-bilicheck CRON[1455]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T14:45:01.170755+07:00 target-bilicheck CRON[1455]: pam_unix(cron:session): session closed for user root
+2026-11-25T14:45:04.535346+07:00 target-bilicheck sshd[1458]: Accepted publickey for socadmin from 10.0.2.2 port 51670 ssh2: ED25519 SHA256:Wb8Xj3di82kXw55WybOiAMyMRY96qu6GoNQJQv54q6M
+2026-11-25T14:45:04.542050+07:00 target-bilicheck sshd[1458]: pam_unix(sshd:session): session opened for user socadmin(uid=1000) by socadmin(uid=0)
+2026-11-25T14:45:04.553079+07:00 target-bilicheck systemd-logind[780]: New session 4 of user socadmin.
+2026-11-25T14:46:37.203479+07:00 target-bilicheck sshd[1523]: Invalid user soc_test from 192.168.11.100 port 38750
+2026-11-25T14:46:37.220405+07:00 target-bilicheck sshd[1523]: Connection closed by invalid user soc_test 192.168.11.100 port 38750 [preauth]
+2026-11-25T14:46:50.756920+07:00 target-bilicheck sudo: socadmin : TTY=pts/0 ; PWD=/home/socadmin ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-11-25T14:46:50.774880+07:00 target-bilicheck sudo: pam_unix(sudo:session): session opened for user root(uid=0) by socadmin(uid=1000)
+2026-11-25T14:46:50.965643+07:00 target-bilicheck sudo: pam_unix(sudo:session): session closed for user root
+2026-11-25T14:47:31.414218+07:00 target-bilicheck sudo: socadmin : TTY=pts/0 ; PWD=/home/socadmin ; USER=root ; COMMAND=/usr/bin/fail2ban-client get sshd maxretry
+2026-11-25T14:47:31.418138+07:00 target-bilicheck sudo: pam_unix(sudo:session): session opened for user root(uid=0) by socadmin(uid=1000)
+2026-11-25T14:47:31.569542+07:00 target-bilicheck sudo: pam_unix(sudo:session): session closed for user root
+2026-11-25T14:55:01.204321+07:00 target-bilicheck CRON[1539]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T14:55:01.222372+07:00 target-bilicheck CRON[1539]: pam_unix(cron:session): session closed for user root
+2026-11-25T15:05:01.267285+07:00 target-bilicheck CRON[1550]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T15:05:01.297649+07:00 target-bilicheck CRON[1550]: pam_unix(cron:session): session closed for user root
+2026-11-25T15:15:01.326350+07:00 target-bilicheck CRON[1562]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T15:15:01.345378+07:00 target-bilicheck CRON[1562]: pam_unix(cron:session): session closed for user root
+2026-11-25T15:17:01.355403+07:00 target-bilicheck CRON[1566]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T15:17:01.376677+07:00 target-bilicheck CRON[1566]: pam_unix(cron:session): session closed for user root
+2026-11-25T15:25:01.400882+07:00 target-bilicheck CRON[1574]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T15:25:01.411320+07:00 target-bilicheck CRON[1574]: pam_unix(cron:session): session closed for user root
+2026-11-25T15:35:01.430254+07:00 target-bilicheck CRON[1583]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T15:35:01.456138+07:00 target-bilicheck CRON[1583]: pam_unix(cron:session): session closed for user root
+2026-11-25T15:45:01.502550+07:00 target-bilicheck CRON[1595]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T15:45:01.518672+07:00 target-bilicheck CRON[1595]: pam_unix(cron:session): session closed for user root
+2026-11-25T15:55:01.535432+07:00 target-bilicheck CRON[1632]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T15:55:01.561127+07:00 target-bilicheck CRON[1632]: pam_unix(cron:session): session closed for user root
+2026-11-25T16:05:01.582065+07:00 target-bilicheck CRON[1641]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T16:05:01.595689+07:00 target-bilicheck CRON[1641]: pam_unix(cron:session): session closed for user root
+2026-11-25T16:15:01.626037+07:00 target-bilicheck CRON[1656]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T16:15:01.648550+07:00 target-bilicheck CRON[1656]: pam_unix(cron:session): session closed for user root
+2026-11-25T16:17:01.657386+07:00 target-bilicheck CRON[1662]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T16:17:01.676286+07:00 target-bilicheck CRON[1662]: pam_unix(cron:session): session closed for user root
+2026-11-25T16:25:01.698652+07:00 target-bilicheck CRON[1669]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T16:25:01.717815+07:00 target-bilicheck CRON[1669]: pam_unix(cron:session): session closed for user root
+2026-11-25T16:35:01.739479+07:00 target-bilicheck CRON[1680]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T16:35:01.755160+07:00 target-bilicheck CRON[1680]: pam_unix(cron:session): session closed for user root
+2026-11-25T16:45:01.776896+07:00 target-bilicheck CRON[1691]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T16:45:01.795496+07:00 target-bilicheck CRON[1691]: pam_unix(cron:session): session closed for user root
+2026-11-25T16:55:01.812392+07:00 target-bilicheck CRON[1701]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T16:55:01.835736+07:00 target-bilicheck CRON[1701]: pam_unix(cron:session): session closed for user root
+2026-11-25T17:05:01.862509+07:00 target-bilicheck CRON[1710]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T17:05:01.884612+07:00 target-bilicheck CRON[1710]: pam_unix(cron:session): session closed for user root
+2026-11-25T17:15:01.905276+07:00 target-bilicheck CRON[1753]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T17:15:01.922506+07:00 target-bilicheck CRON[1753]: pam_unix(cron:session): session closed for user root
+2026-11-25T17:17:01.932967+07:00 target-bilicheck CRON[1758]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T17:17:01.955571+07:00 target-bilicheck CRON[1758]: pam_unix(cron:session): session closed for user root
+2026-11-25T17:25:01.968068+07:00 target-bilicheck CRON[1767]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T17:25:01.984165+07:00 target-bilicheck CRON[1767]: pam_unix(cron:session): session closed for user root
+2026-11-25T17:35:02.011087+07:00 target-bilicheck CRON[1777]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T17:35:02.029866+07:00 target-bilicheck CRON[1777]: pam_unix(cron:session): session closed for user root
+2026-11-25T17:45:01.051053+07:00 target-bilicheck CRON[1794]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T17:45:01.071411+07:00 target-bilicheck CRON[1794]: pam_unix(cron:session): session closed for user root
+2026-11-25T17:55:01.098485+07:00 target-bilicheck CRON[1803]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T17:55:01.106220+07:00 target-bilicheck CRON[1803]: pam_unix(cron:session): session closed for user root
+2026-11-25T18:05:01.122939+07:00 target-bilicheck CRON[1813]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T18:05:01.133576+07:00 target-bilicheck CRON[1813]: pam_unix(cron:session): session closed for user root
+2026-11-25T18:15:01.159081+07:00 target-bilicheck CRON[1829]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T18:15:01.177518+07:00 target-bilicheck CRON[1829]: pam_unix(cron:session): session closed for user root
+2026-11-25T18:17:01.190920+07:00 target-bilicheck CRON[1834]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T18:17:01.204596+07:00 target-bilicheck CRON[1834]: pam_unix(cron:session): session closed for user root
+2026-11-25T18:25:01.225833+07:00 target-bilicheck CRON[1843]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T18:25:01.256583+07:00 target-bilicheck CRON[1843]: pam_unix(cron:session): session closed for user root
+2026-11-25T18:35:01.279056+07:00 target-bilicheck CRON[1854]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T18:35:01.297576+07:00 target-bilicheck CRON[1854]: pam_unix(cron:session): session closed for user root
+2026-11-25T18:45:01.319672+07:00 target-bilicheck CRON[1865]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T18:45:01.346012+07:00 target-bilicheck CRON[1865]: pam_unix(cron:session): session closed for user root
+2026-11-25T18:55:01.364181+07:00 target-bilicheck CRON[1876]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T18:55:01.376945+07:00 target-bilicheck CRON[1876]: pam_unix(cron:session): session closed for user root
+2026-11-25T19:05:01.395560+07:00 target-bilicheck CRON[1886]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T19:05:01.418347+07:00 target-bilicheck CRON[1886]: pam_unix(cron:session): session closed for user root
+2026-11-25T19:15:01.448347+07:00 target-bilicheck CRON[1896]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T19:15:01.471111+07:00 target-bilicheck CRON[1896]: pam_unix(cron:session): session closed for user root
+2026-11-25T19:17:01.489712+07:00 target-bilicheck CRON[1901]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T19:17:01.512226+07:00 target-bilicheck CRON[1901]: pam_unix(cron:session): session closed for user root
+2026-11-25T19:25:01.532134+07:00 target-bilicheck CRON[1918]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T19:25:01.549062+07:00 target-bilicheck CRON[1918]: pam_unix(cron:session): session closed for user root
+2026-11-25T19:35:01.576638+07:00 target-bilicheck CRON[1927]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T19:35:01.608929+07:00 target-bilicheck CRON[1927]: pam_unix(cron:session): session closed for user root
+2026-11-25T19:45:01.631226+07:00 target-bilicheck CRON[2393]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T19:45:01.652467+07:00 target-bilicheck CRON[2393]: pam_unix(cron:session): session closed for user root
+2026-11-25T19:55:01.722702+07:00 target-bilicheck CRON[2407]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T19:55:01.755898+07:00 target-bilicheck CRON[2407]: pam_unix(cron:session): session closed for user root
+2026-11-25T20:05:01.816272+07:00 target-bilicheck CRON[2421]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T20:05:01.844404+07:00 target-bilicheck CRON[2421]: pam_unix(cron:session): session closed for user root
+2026-11-25T20:15:02.154230+07:00 target-bilicheck CRON[2433]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T20:15:02.159673+07:00 target-bilicheck CRON[2433]: pam_unix(cron:session): session closed for user root
+2026-11-25T20:17:01.141107+07:00 target-bilicheck CRON[2440]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T20:17:01.250919+07:00 target-bilicheck CRON[2440]: pam_unix(cron:session): session closed for user root
+2026-11-25T20:25:01.303072+07:00 target-bilicheck CRON[2449]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T20:25:01.353737+07:00 target-bilicheck CRON[2449]: pam_unix(cron:session): session closed for user root
+2026-11-25T20:35:01.398801+07:00 target-bilicheck CRON[2467]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T20:35:01.433469+07:00 target-bilicheck CRON[2467]: pam_unix(cron:session): session closed for user root
+2026-11-25T20:45:01.486885+07:00 target-bilicheck CRON[2480]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T20:45:01.545677+07:00 target-bilicheck CRON[2480]: pam_unix(cron:session): session closed for user root
+2026-11-25T20:55:01.652485+07:00 target-bilicheck CRON[2491]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T20:55:01.700226+07:00 target-bilicheck CRON[2491]: pam_unix(cron:session): session closed for user root
+2026-11-25T21:05:01.744672+07:00 target-bilicheck CRON[2502]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T21:05:01.764535+07:00 target-bilicheck CRON[2502]: pam_unix(cron:session): session closed for user root
+2026-11-25T21:15:01.799995+07:00 target-bilicheck CRON[2512]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T21:15:01.824159+07:00 target-bilicheck CRON[2512]: pam_unix(cron:session): session closed for user root
+2026-11-25T21:17:01.834472+07:00 target-bilicheck CRON[2520]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T21:17:01.860233+07:00 target-bilicheck CRON[2520]: pam_unix(cron:session): session closed for user root
+2026-11-25T21:25:01.878839+07:00 target-bilicheck CRON[2530]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T21:25:01.890236+07:00 target-bilicheck CRON[2530]: pam_unix(cron:session): session closed for user root
+2026-11-25T21:35:01.966284+07:00 target-bilicheck CRON[2541]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T21:35:01.994059+07:00 target-bilicheck CRON[2541]: pam_unix(cron:session): session closed for user root
+2026-11-25T21:45:01.026728+07:00 target-bilicheck CRON[2553]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T21:45:01.049524+07:00 target-bilicheck CRON[2553]: pam_unix(cron:session): session closed for user root
+2026-11-25T21:55:01.268891+07:00 target-bilicheck CRON[2564]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T21:55:01.605339+07:00 target-bilicheck CRON[2564]: pam_unix(cron:session): session closed for user root
+2026-11-25T22:05:01.672375+07:00 target-bilicheck CRON[2587]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T22:05:01.691418+07:00 target-bilicheck CRON[2587]: pam_unix(cron:session): session closed for user root
+2026-11-25T22:15:01.759615+07:00 target-bilicheck CRON[2597]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T22:15:01.822495+07:00 target-bilicheck CRON[2597]: pam_unix(cron:session): session closed for user root
+2026-11-25T22:17:01.885840+07:00 target-bilicheck CRON[2603]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T22:17:01.908239+07:00 target-bilicheck CRON[2603]: pam_unix(cron:session): session closed for user root
+2026-11-25T22:25:02.027319+07:00 target-bilicheck CRON[2612]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T22:25:02.320815+07:00 target-bilicheck CRON[2612]: pam_unix(cron:session): session closed for user root
+2026-11-25T22:35:01.094840+07:00 target-bilicheck CRON[2626]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T22:35:01.148301+07:00 target-bilicheck CRON[2626]: pam_unix(cron:session): session closed for user root
+2026-11-25T22:45:01.189887+07:00 target-bilicheck CRON[2645]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T22:45:01.213848+07:00 target-bilicheck CRON[2645]: pam_unix(cron:session): session closed for user root
+2026-11-25T22:55:01.245249+07:00 target-bilicheck CRON[2656]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T22:55:01.280629+07:00 target-bilicheck CRON[2656]: pam_unix(cron:session): session closed for user root
+2026-11-25T23:05:01.321785+07:00 target-bilicheck CRON[2668]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T23:05:01.339456+07:00 target-bilicheck CRON[2668]: pam_unix(cron:session): session closed for user root
+2026-11-25T23:15:01.408038+07:00 target-bilicheck CRON[2679]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T23:15:01.452351+07:00 target-bilicheck CRON[2679]: pam_unix(cron:session): session closed for user root
+2026-11-25T23:17:01.510746+07:00 target-bilicheck CRON[2685]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T23:17:01.554355+07:00 target-bilicheck CRON[2685]: pam_unix(cron:session): session closed for user root
+2026-11-25T23:25:01.613915+07:00 target-bilicheck CRON[2696]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-25T23:25:01.652937+07:00 target-bilicheck CRON[2696]: pam_unix(cron:session): session closed for user root
+2026-11-26T08:23:36.857181+07:00 target-bilicheck systemd-logind[791]: New seat seat0.
+2026-11-26T08:23:36.857191+07:00 target-bilicheck systemd-logind[791]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-11-26T08:23:36.857200+07:00 target-bilicheck systemd-logind[791]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-11-26T08:23:36.857208+07:00 target-bilicheck systemd-logind[791]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-11-26T08:23:36.857378+07:00 target-bilicheck polkitd[781]: Loading rules from directory /etc/polkit-1/rules.d
+2026-11-26T08:23:36.857387+07:00 target-bilicheck polkitd[781]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-11-26T08:23:36.857457+07:00 target-bilicheck polkitd[781]: Finished loading, compiling and executing 6 rules
+2026-11-26T08:23:36.885094+07:00 target-bilicheck polkitd[781]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-11-26T08:40:11.162525+07:00 target-bilicheck sshd[1037]: Server listening on 0.0.0.0 port 22.
+2026-11-26T08:40:11.166211+07:00 target-bilicheck sshd[1037]: Server listening on :: port 22.
+2026-11-26T08:40:13.889085+07:00 target-bilicheck sshd[1040]: Accepted publickey for socadmin from 10.0.2.2 port 53763 ssh2: ED25519 SHA256:Wb8Xj3di82kXw55WybOiAMyMRY96qu6GoNQJQv54q6M
+2026-11-26T08:40:13.898861+07:00 target-bilicheck sshd[1040]: pam_unix(sshd:session): session opened for user socadmin(uid=1000) by socadmin(uid=0)
+2026-11-26T08:40:13.953005+07:00 target-bilicheck systemd-logind[791]: New session 1 of user socadmin.
+2026-11-26T08:40:14.219622+07:00 target-bilicheck (systemd): pam_unix(systemd-user:session): session opened for user socadmin(uid=1000) by socadmin(uid=0)
+2026-11-26T08:40:19.361895+07:00 target-bilicheck login[1039]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+2026-11-26T08:40:19.362340+07:00 target-bilicheck login[1039]: PAM adding faulty module: pam_lastlog.so
+2026-11-26T08:40:20.692520+07:00 target-bilicheck login[1039]: pam_unix(login:session): session opened for user socadmin(uid=1000) by socadmin(uid=0)
+2026-11-26T08:40:20.700860+07:00 target-bilicheck systemd-logind[791]: New session 3 of user socadmin.
+2026-11-26T08:41:45.786576+07:00 target-bilicheck sudo: socadmin : TTY=pts/0 ; PWD=/home/socadmin ; USER=root ; COMMAND=/usr/bin/ss -lntup
+2026-11-26T08:41:45.790769+07:00 target-bilicheck sudo: pam_unix(sudo:session): session opened for user root(uid=0) by socadmin(uid=1000)
+2026-11-26T08:41:45.896911+07:00 target-bilicheck sudo: pam_unix(sudo:session): session closed for user root
+2026-11-26T08:41:45.911614+07:00 target-bilicheck sudo: socadmin : TTY=pts/0 ; PWD=/home/socadmin ; USER=root ; COMMAND=/usr/bin/systemctl --type=service --state=running --no-pager
+2026-11-26T08:41:45.914738+07:00 target-bilicheck sudo: pam_unix(sudo:session): session opened for user root(uid=0) by socadmin(uid=1000)
+2026-11-26T08:41:45.930820+07:00 target-bilicheck sudo: pam_unix(sudo:session): session closed for user root
+2026-11-26T08:41:51.405029+07:00 target-bilicheck sudo: socadmin : TTY=pts/0 ; PWD=/home/socadmin ; USER=root ; COMMAND=/usr/bin/journalctl --utc --since '2026-11-18 00:00:00 UTC' --until '2026-11-26 00:00:00 UTC' -o short-iso-precise
+2026-11-26T08:41:51.406038+07:00 target-bilicheck sudo: pam_unix(sudo:session): session opened for user root(uid=0) by socadmin(uid=1000)
+2026-11-26T08:41:51.886691+07:00 target-bilicheck sudo: pam_unix(sudo:session): session closed for user root
+2026-11-26T08:41:51.899487+07:00 target-bilicheck sudo: socadmin : TTY=pts/0 ; PWD=/home/socadmin ; USER=root ; COMMAND=/usr/bin/journalctl --utc -u ssh -u sshd --since '2026-11-18 00:00:00 UTC' --until '2026-11-26 00:00:00 UTC' -o short-iso-precise
+2026-11-26T08:41:51.900663+07:00 target-bilicheck sudo: pam_unix(sudo:session): session opened for user root(uid=0) by socadmin(uid=1000)
+2026-11-26T08:41:52.298390+07:00 target-bilicheck sudo: pam_unix(sudo:session): session closed for user root
+2026-11-26T08:41:55.101665+07:00 target-bilicheck sudo: socadmin : TTY=pts/0 ; PWD=/home/socadmin ; USER=root ; COMMAND=/usr/bin/journalctl --utc -u fail2ban --since '2026-11-18 00:00:00 UTC' --until '2026-11-26 00:00:00 UTC' -o short-iso-precise
+2026-11-26T08:41:55.106668+07:00 target-bilicheck sudo: pam_unix(sudo:session): session opened for user root(uid=0) by socadmin(uid=1000)
+2026-11-26T08:41:55.226710+07:00 target-bilicheck sudo: pam_unix(sudo:session): session closed for user root
+2026-11-26T08:41:55.245349+07:00 target-bilicheck sudo: socadmin : TTY=pts/0 ; PWD=/home/socadmin ; USER=root ; COMMAND=/usr/bin/fail2ban-client status
+2026-11-26T08:41:55.247624+07:00 target-bilicheck sudo: pam_unix(sudo:session): session opened for user root(uid=0) by socadmin(uid=1000)
+2026-11-26T08:41:55.526206+07:00 target-bilicheck sudo: pam_unix(sudo:session): session closed for user root
+2026-11-26T08:41:55.545213+07:00 target-bilicheck sudo: socadmin : TTY=pts/0 ; PWD=/home/socadmin ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+2026-11-26T08:41:55.547218+07:00 target-bilicheck sudo: pam_unix(sudo:session): session opened for user root(uid=0) by socadmin(uid=1000)
+2026-11-26T08:41:55.688158+07:00 target-bilicheck sudo: pam_unix(sudo:session): session closed for user root
+2026-11-26T08:41:57.958527+07:00 target-bilicheck sudo: socadmin : TTY=pts/0 ; PWD=/home/socadmin ; USER=root ; COMMAND=/usr/bin/journalctl --utc -u mosquitto --since '2026-11-18 00:00:00 UTC' --until '2026-11-26 00:00:00 UTC' -o short-iso-precise
+2026-11-26T08:41:57.960190+07:00 target-bilicheck sudo: pam_unix(sudo:session): session opened for user root(uid=0) by socadmin(uid=1000)
+2026-11-26T08:41:58.051673+07:00 target-bilicheck sudo: pam_unix(sudo:session): session closed for user root
+2026-11-26T08:41:58.064493+07:00 target-bilicheck sudo: socadmin : TTY=pts/0 ; PWD=/home/socadmin ; USER=root ; COMMAND=/usr/bin/journalctl --utc -u apache2 --since '2026-11-18 00:00:00 UTC' --until '2026-11-26 00:00:00 UTC' -o short-iso-precise
+2026-11-26T08:41:58.066731+07:00 target-bilicheck sudo: pam_unix(sudo:session): session opened for user root(uid=0) by socadmin(uid=1000)
+2026-11-26T08:41:58.133736+07:00 target-bilicheck sudo: pam_unix(sudo:session): session closed for user root
+2026-11-26T08:42:00.522133+07:00 target-bilicheck sudo: socadmin : TTY=pts/0 ; PWD=/home/socadmin ; USER=root ; COMMAND=/usr/bin/test -f /var/log/auth.log
+2026-11-26T08:42:00.527033+07:00 target-bilicheck sudo: pam_unix(sudo:session): session opened for user root(uid=0) by socadmin(uid=1000)
+2026-11-26T08:42:00.536804+07:00 target-bilicheck sudo: pam_unix(sudo:session): session closed for user root
+2026-11-26T08:42:00.557114+07:00 target-bilicheck sudo: socadmin : TTY=pts/0 ; PWD=/home/socadmin ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+2026-11-26T08:42:00.558593+07:00 target-bilicheck sudo: pam_unix(sudo:session): session opened for user root(uid=0) by socadmin(uid=1000)

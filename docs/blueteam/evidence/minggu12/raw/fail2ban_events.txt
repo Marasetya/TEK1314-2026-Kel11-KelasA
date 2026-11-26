@@ -1,0 +1,11 @@
+2026-11-25T02:49:14.426896+00:00 target-bilicheck systemd[1]: Started fail2ban.service - Fail2Ban Service.
+2026-11-25T02:49:16.336098+00:00 target-bilicheck fail2ban-server[948]: 2026-11-25 09:49:16,335 fail2ban.configreader   [948]: WARNING 'allowipv6' not defined in 'Definition'. Using default one: 'auto'
+2026-11-25T02:49:28.332626+00:00 target-bilicheck fail2ban-server[948]: Server ready
+-- Boot 07aa7b8b49ae4512b5a46e41d99bc08c --
+2026-11-25T05:25:40.357471+00:00 target-bilicheck systemd[1]: Started fail2ban.service - Fail2Ban Service.
+2026-11-25T05:25:48.127327+00:00 target-bilicheck fail2ban-server[895]: 2026-11-25 12:25:48,124 fail2ban.configreader   [895]: WARNING 'allowipv6' not defined in 'Definition'. Using default one: 'auto'
+2026-11-25T05:25:53.002227+00:00 target-bilicheck fail2ban-server[895]: Server ready
+-- Boot 42bbc9bbf8f74c0aa2b444416ffec2f4 --
+2026-11-25T07:35:43.988974+00:00 target-bilicheck systemd[1]: Started fail2ban.service - Fail2Ban Service.
+2026-11-25T07:35:45.766056+00:00 target-bilicheck fail2ban-server[823]: 2026-11-25 14:35:45,758 fail2ban.configreader   [823]: WARNING 'allowipv6' not defined in 'Definition'. Using default one: 'auto'
+2026-11-25T07:35:48.576272+00:00 target-bilicheck fail2ban-server[823]: Server ready

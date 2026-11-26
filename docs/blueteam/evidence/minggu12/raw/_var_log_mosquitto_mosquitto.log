@@ -1,0 +1,259 @@
+1793805584: mosquitto version 2.0.18 starting
+1793805584: Config loaded from /etc/mosquitto/mosquitto.conf.
+1793805584: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1793805584: Create a configuration file which defines a listener to allow remote access.
+1793805584: For more details see https://mosquitto.org/documentation/authentication-methods/
+1793805584: Opening ipv4 listen socket on port 1883.
+1793805584: Opening ipv6 listen socket on port 1883.
+1793805584: mosquitto version 2.0.18 running
+1793805664: mosquitto version 2.0.18 terminating
+1793805664: Saving in-memory database to /var/lib/mosquitto//mosquitto.db.
+1793805665: mosquitto version 2.0.18 starting
+1793805665: Config loaded from /etc/mosquitto/mosquitto.conf.
+1793805665: Opening ipv4 listen socket on port 1883.
+1793805665: mosquitto version 2.0.18 running
+1793805706: New connection from 192.168.11.100:36720 on port 1883.
+1793805706: New client connected from 192.168.11.100:36720 as auto-FD0D96AD-C391-D773-1A14-E040C0165561 (p2, c1, k60).
+1793805706: No will message specified.
+1793805706: Sending CONNACK to auto-FD0D96AD-C391-D773-1A14-E040C0165561 (0, 0)
+1793805706: Received SUBSCRIBE from auto-FD0D96AD-C391-D773-1A14-E040C0165561
+1793805706: 	bilicheck/puskesmas01/dev-test/telemetry (QoS 0)
+1793805706: auto-FD0D96AD-C391-D773-1A14-E040C0165561 0 bilicheck/puskesmas01/dev-test/telemetry
+1793805706: Sending SUBACK to auto-FD0D96AD-C391-D773-1A14-E040C0165561
+1793805717: New connection from 192.168.11.100:45390 on port 1883.
+1793805717: New client connected from 192.168.11.100:45390 as auto-8EC212EC-C34F-35DB-1BE1-2B35517B4F4D (p2, c1, k60).
+1793805717: No will message specified.
+1793805717: Sending CONNACK to auto-8EC212EC-C34F-35DB-1BE1-2B35517B4F4D (0, 0)
+1793805717: Received PUBLISH from auto-8EC212EC-C34F-35DB-1BE1-2B35517B4F4D (d0, q0, r0, m0, 'bilicheck/puskesmas01/dev-test/telemetry', ... (62 bytes))
+1793805717: Sending PUBLISH to auto-FD0D96AD-C391-D773-1A14-E040C0165561 (d0, q0, r0, m0, 'bilicheck/puskesmas01/dev-test/telemetry', ... (62 bytes))
+1793805717: Received DISCONNECT from auto-8EC212EC-C34F-35DB-1BE1-2B35517B4F4D
+1793805717: Client auto-8EC212EC-C34F-35DB-1BE1-2B35517B4F4D disconnected.
+1793805735: New connection from 192.168.11.100:54860 on port 1883.
+1793805735: New client connected from 192.168.11.100:54860 as auto-36AB130D-24AC-856D-4C1E-8D908F455D59 (p2, c1, k60).
+1793805735: No will message specified.
+1793805735: Sending CONNACK to auto-36AB130D-24AC-856D-4C1E-8D908F455D59 (0, 0)
+1793805735: Received PUBLISH from auto-36AB130D-24AC-856D-4C1E-8D908F455D59 (d0, q0, r0, m0, 'bilicheck/puskesmas01/dev-test/telemetry', ... (62 bytes))
+1793805735: Sending PUBLISH to auto-FD0D96AD-C391-D773-1A14-E040C0165561 (d0, q0, r0, m0, 'bilicheck/puskesmas01/dev-test/telemetry', ... (62 bytes))
+1793805735: Received DISCONNECT from auto-36AB130D-24AC-856D-4C1E-8D908F455D59
+1793805735: Client auto-36AB130D-24AC-856D-4C1E-8D908F455D59 disconnected.
+1793805768: Received PINGREQ from auto-FD0D96AD-C391-D773-1A14-E040C0165561
+1793805768: Sending PINGRESP to auto-FD0D96AD-C391-D773-1A14-E040C0165561
+1793805827: Received PINGREQ from auto-FD0D96AD-C391-D773-1A14-E040C0165561
+1793805827: Sending PINGRESP to auto-FD0D96AD-C391-D773-1A14-E040C0165561
+1793805888: Received PINGREQ from auto-FD0D96AD-C391-D773-1A14-E040C0165561
+1793805888: Sending PINGRESP to auto-FD0D96AD-C391-D773-1A14-E040C0165561
+1793805948: Received PINGREQ from auto-FD0D96AD-C391-D773-1A14-E040C0165561
+1793805948: Sending PINGRESP to auto-FD0D96AD-C391-D773-1A14-E040C0165561
+1793805991: mosquitto version 2.0.18 terminating
+1793805991: Saving in-memory database to /var/lib/mosquitto//mosquitto.db.
+1793805991: mosquitto version 2.0.18 starting
+1793805991: Config loaded from /etc/mosquitto/mosquitto.conf.
+1793805991: Warning: File /etc/mosquitto/passwd owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /etc/mosquitto/passwd`.
+1793805991: Opening ipv4 listen socket on port 1883.
+1793805991: mosquitto version 2.0.18 running
+1793805992: New connection from 192.168.11.100:60804 on port 1883.
+1793805992: Sending CONNACK to auto-888CF5D9-88B3-7747-43EA-862D137DEF79 (0, 5)
+1793805992: Client auto-888CF5D9-88B3-7747-43EA-862D137DEF79 disconnected, not authorised.
+1793806156: New connection from 192.168.11.100:35002 on port 1883.
+1793806156: Sending CONNACK to auto-8C7B57DD-A588-9221-E166-6DDD360C07FC (0, 5)
+1793806156: Client auto-8C7B57DD-A588-9221-E166-6DDD360C07FC disconnected, not authorised.
+1793806234: New connection from 192.168.11.100:52272 on port 1883.
+1793806234: New client connected from 192.168.11.100:52272 as auto-A55B1763-CCCB-4E64-92A5-97727DBEB35C (p2, c1, k60, u'esp32_bilicheck').
+1793806234: No will message specified.
+1793806234: Sending CONNACK to auto-A55B1763-CCCB-4E64-92A5-97727DBEB35C (0, 0)
+1793806234: Received PUBLISH from auto-A55B1763-CCCB-4E64-92A5-97727DBEB35C (d0, q0, r0, m0, 'bilicheck/puskesmas01/dev-test/telemetry', ... (62 bytes))
+1793806234: Received DISCONNECT from auto-A55B1763-CCCB-4E64-92A5-97727DBEB35C
+1793806234: Client auto-A55B1763-CCCB-4E64-92A5-97727DBEB35C disconnected.
+1793832480: mosquitto version 2.0.18 starting
+1793832480: Config loaded from /etc/mosquitto/mosquitto.conf.
+1793832480: Warning: File /etc/mosquitto/passwd owner is not mosquitto. Future versions will refuse to load this file.To fix this, use `chown mosquitto /etc/mosquitto/passwd`.
+1793832480: Opening ipv4 listen socket on port 1883.
+1793832480: mosquitto version 2.0.18 running
+1793834280: Saving in-memory database to /var/lib/mosquitto//mosquitto.db.
+1793835035: mosquitto version 2.0.18 terminating
+1793835035: Saving in-memory database to /var/lib/mosquitto//mosquitto.db.
+1793835040: mosquitto version 2.0.18 starting
+1793835040: Config loaded from /etc/mosquitto/mosquitto.conf.
+1793835040: Opening ipv4 listen socket on port 1883.
+1793835040: mosquitto version 2.0.18 running
+1793838886: mosquitto version 2.0.18 starting
+1793838886: Config loaded from /etc/mosquitto/mosquitto.conf.
+1793838886: Opening ipv4 listen socket on port 1883.
+1793838886: mosquitto version 2.0.18 running
+1793839281: New connection from 192.168.11.100:48094 on port 1883.
+1793839287: Sending CONNACK to nmap (0, 5)
+1793839287: Client nmap disconnected, not authorised.
+1793839374: New connection from 192.168.11.100:44512 on port 1883.
+1793839374: Sending CONNACK to nmapmstixbgnyskdniuw (0, 5)
+1793839374: Client nmapmstixbgnyskdniuw disconnected, not authorised.
+1793839394: New connection from 192.168.11.100:38460 on port 1883.
+1793839394: Sending CONNACK to auto-215A72A7-83F1-1240-12AA-1E3B8F511601 (0, 5)
+1793839394: Client auto-215A72A7-83F1-1240-12AA-1E3B8F511601 disconnected, not authorised.
+1793840689: Saving in-memory database to /var/lib/mosquitto//mosquitto.db.
+1793841285: New connection from 192.168.11.100:41632 on port 1883.
+1793841291: Sending CONNACK to nmap (0, 5)
+1793841291: Client nmap disconnected, not authorised.
+1793841376: New connection from 192.168.11.100:43256 on port 1883.
+1793841376: Sending CONNACK to nmaplsgeerxcvsgqtqae (0, 5)
+1793841376: Client nmaplsgeerxcvsgqtqae disconnected, not authorised.
+1793841590: New connection from 192.168.11.100:43634 on port 1883.
+1793841590: Sending CONNACK to auto-902BC180-74F1-D5ED-73E7-71166F57920E (0, 5)
+1793841590: Client auto-902BC180-74F1-D5ED-73E7-71166F57920E disconnected, not authorised.
+1793842516: mosquitto version 2.0.18 starting
+1793842516: Config loaded from /etc/mosquitto/mosquitto.conf.
+1793842516: Opening ipv4 listen socket on port 1883.
+1793842516: mosquitto version 2.0.18 running
+1793844317: Saving in-memory database to /var/lib/mosquitto//mosquitto.db.
+1793926441: mosquitto version 2.0.18 starting
+1793926441: Config loaded from /etc/mosquitto/mosquitto.conf.
+1793926441: Opening ipv4 listen socket on port 1883.
+1793926441: mosquitto version 2.0.18 running
+1793928242: Saving in-memory database to /var/lib/mosquitto//mosquitto.db.
+1795574963: mosquitto version 2.0.18 starting
+1795574963: Config loaded from /etc/mosquitto/mosquitto.conf.
+1795574963: Opening ipv4 listen socket on port 1883.
+1795574963: mosquitto version 2.0.18 running
+1795576765: Saving in-memory database to /var/lib/mosquitto//mosquitto.db.
+1795576968: New connection from 192.168.11.100:44702 on port 1883.
+1795576974: Sending CONNACK to nmap (0, 5)
+1795576974: Client nmap disconnected, not authorised.
+1795577060: New connection from 192.168.11.100:50722 on port 1883.
+1795577060: Sending CONNACK to nmapetpxzoglwzeobjbr (0, 5)
+1795577060: Client nmapetpxzoglwzeobjbr disconnected, not authorised.
+1795577796: New connection from 192.168.11.100:35146 on port 1883.
+1795577796: Sending CONNACK to auto-278AEAB2-5501-BF61-E5EF-BCE364B66151 (0, 5)
+1795577796: Client auto-278AEAB2-5501-BF61-E5EF-BCE364B66151 disconnected, not authorised.
+1795577875: New connection from 192.168.11.100:46038 on port 1883.
+1795577875: Sending CONNACK to auto-F9338D8F-5C05-DFF5-1E4E-CE515F8FD97A (0, 5)
+1795577875: Client auto-F9338D8F-5C05-DFF5-1E4E-CE515F8FD97A disconnected, not authorised.
+1795577880: New connection from 192.168.11.100:56684 on port 1883.
+1795577880: Sending CONNACK to auto-BABF5434-D180-38B9-C606-AF1E93E7CD94 (0, 5)
+1795577880: Client auto-BABF5434-D180-38B9-C606-AF1E93E7CD94 disconnected, not authorised.
+1795577900: New connection from 192.168.11.100:59456 on port 1883.
+1795577900: Sending CONNACK to auto-2FF85490-8104-03DB-3DB9-B096A0061E36 (0, 5)
+1795577900: Client auto-2FF85490-8104-03DB-3DB9-B096A0061E36 disconnected, not authorised.
+1795577925: New connection from 192.168.11.100:55298 on port 1883.
+1795577925: Sending CONNACK to auto-B5FC5EB4-B849-BC1E-7659-C1DDD4744A3E (0, 5)
+1795577925: Client auto-B5FC5EB4-B849-BC1E-7659-C1DDD4744A3E disconnected, not authorised.
+1795577930: New connection from 192.168.11.100:55314 on port 1883.
+1795577930: Sending CONNACK to auto-1984B6A5-F76C-4DF2-71B9-445D102C550A (0, 5)
+1795577930: Client auto-1984B6A5-F76C-4DF2-71B9-445D102C550A disconnected, not authorised.
+1795577957: New connection from 192.168.11.100:38678 on port 1883.
+1795577957: Sending CONNACK to auto-EBCE7F02-7011-AB6F-313F-F7DEC3DD3C1A (0, 5)
+1795577957: Client auto-EBCE7F02-7011-AB6F-313F-F7DEC3DD3C1A disconnected, not authorised.
+1795577980: mosquitto version 2.0.18 terminating
+1795577980: Saving in-memory database to /var/lib/mosquitto//mosquitto.db.
+1795577980: mosquitto version 2.0.18 starting
+1795577980: Config loaded from /etc/mosquitto/mosquitto.conf.
+1795577980: Opening ipv4 listen socket on port 1883.
+1795577980: mosquitto version 2.0.18 running
+1795578004: New connection from 192.168.11.100:33616 on port 1883.
+1795578004: Sending CONNACK to auto-F751F521-98B6-F7F6-F039-8A1D18B1B00A (0, 5)
+1795578004: Client auto-F751F521-98B6-F7F6-F039-8A1D18B1B00A disconnected, not authorised.
+1795578204: mosquitto version 2.0.18 terminating
+1795578204: Saving in-memory database to /var/lib/mosquitto//mosquitto.db.
+1795578204: mosquitto version 2.0.18 starting
+1795578204: Config loaded from /etc/mosquitto/mosquitto.conf.
+1795578204: Opening ipv4 listen socket on port 1883.
+1795578204: mosquitto version 2.0.18 running
+1795578237: New connection from 192.168.11.100:33702 on port 1883.
+1795578237: New client connected from 192.168.11.100:33702 as auto-C9F319B1-D18D-B4DA-F756-C58606EAA94F (p2, c1, k60, u'esp32_bilicheck').
+1795578237: No will message specified.
+1795578237: Sending CONNACK to auto-C9F319B1-D18D-B4DA-F756-C58606EAA94F (0, 0)
+1795578237: Received PUBLISH from auto-C9F319B1-D18D-B4DA-F756-C58606EAA94F (d0, q0, r0, m0, 'bilicheck/puskesmas01/dev-test/telemetry', ... (40 bytes))
+1795578237: Received DISCONNECT from auto-C9F319B1-D18D-B4DA-F756-C58606EAA94F
+1795578237: Client auto-C9F319B1-D18D-B4DA-F756-C58606EAA94F disconnected.
+1795579359: New connection from 192.168.11.100:45094 on port 1883.
+1795579365: Sending CONNACK to nmap (0, 5)
+1795579365: Client nmap disconnected, not authorised.
+1795579409: New connection from 192.168.11.100:38658 on port 1883.
+1795579415: Sending CONNACK to nmap (0, 5)
+1795579415: Client nmap disconnected, not authorised.
+1795579501: New connection from 192.168.11.100:42888 on port 1883.
+1795579501: Sending CONNACK to nmapersrglyrhoabvbll (0, 5)
+1795579501: Client nmapersrglyrhoabvbll disconnected, not authorised.
+1795580005: Saving in-memory database to /var/lib/mosquitto//mosquitto.db.
+1795581805: Saving in-memory database to /var/lib/mosquitto//mosquitto.db.
+1795584348: mosquitto version 2.0.18 starting
+1795584348: Config loaded from /etc/mosquitto/mosquitto.conf.
+1795584348: Opening ipv4 listen socket on port 1883.
+1795584348: mosquitto version 2.0.18 running
+1795586149: Saving in-memory database to /var/lib/mosquitto//mosquitto.db.
+1795587950: Saving in-memory database to /var/lib/mosquitto//mosquitto.db.
+1795589751: Saving in-memory database to /var/lib/mosquitto//mosquitto.db.
+1795590279: New connection from 192.168.11.100:59220 on port 1883.
+1795590279: Client <unknown> closed its connection.
+1795590491: New connection from 192.168.11.100:59612 on port 1883.
+1795590491: Sending CONNACK to auto-319C2994-2353-7598-98CC-EC7B82BB6D57 (0, 5)
+1795590491: Client auto-319C2994-2353-7598-98CC-EC7B82BB6D57 disconnected, not authorised.
+1795590719: New connection from 192.168.11.100:56632 on port 1883.
+1795590719: New client connected from 192.168.11.100:56632 as auto-B8844EAE-1A62-6CFD-9F17-BF1F77575D93 (p2, c1, k60, u'esp32_bilicheck').
+1795590719: No will message specified.
+1795590719: Sending CONNACK to auto-B8844EAE-1A62-6CFD-9F17-BF1F77575D93 (0, 0)
+1795590719: Received SUBSCRIBE from auto-B8844EAE-1A62-6CFD-9F17-BF1F77575D93
+1795590719: 	bilicheck/puskesmas01/dev-test/telemetry (QoS 0)
+1795590719: auto-B8844EAE-1A62-6CFD-9F17-BF1F77575D93 0 bilicheck/puskesmas01/dev-test/telemetry
+1795590719: Sending SUBACK to auto-B8844EAE-1A62-6CFD-9F17-BF1F77575D93
+1795590749: Received DISCONNECT from auto-B8844EAE-1A62-6CFD-9F17-BF1F77575D93
+1795590749: Client auto-B8844EAE-1A62-6CFD-9F17-BF1F77575D93 disconnected.
+1795590790: New connection from 192.168.11.100:35030 on port 1883.
+1795590790: New client connected from 192.168.11.100:35030 as auto-53553672-2C1F-4EAF-7466-D127C22FABF2 (p2, c1, k60, u'esp32_bilicheck').
+1795590790: No will message specified.
+1795590790: Sending CONNACK to auto-53553672-2C1F-4EAF-7466-D127C22FABF2 (0, 0)
+1795590790: Received SUBSCRIBE from auto-53553672-2C1F-4EAF-7466-D127C22FABF2
+1795590790: 	bilicheck/puskesmas01/dev-test/telemetry (QoS 0)
+1795590790: auto-53553672-2C1F-4EAF-7466-D127C22FABF2 0 bilicheck/puskesmas01/dev-test/telemetry
+1795590790: Sending SUBACK to auto-53553672-2C1F-4EAF-7466-D127C22FABF2
+1795590844: New connection from 192.168.11.100:50612 on port 1883.
+1795590844: New client connected from 192.168.11.100:50612 as auto-C54B156D-88A6-3F50-9616-37947D0CD741 (p2, c1, k60, u'esp32_bilicheck').
+1795590844: No will message specified.
+1795590844: Sending CONNACK to auto-C54B156D-88A6-3F50-9616-37947D0CD741 (0, 0)
+1795590844: Received PUBLISH from auto-C54B156D-88A6-3F50-9616-37947D0CD741 (d0, q0, r0, m0, 'bilicheck/puskesmas01/dev-test/telemetry', ... (40 bytes))
+1795590844: Sending PUBLISH to auto-53553672-2C1F-4EAF-7466-D127C22FABF2 (d0, q0, r0, m0, 'bilicheck/puskesmas01/dev-test/telemetry', ... (40 bytes))
+1795590844: Received DISCONNECT from auto-C54B156D-88A6-3F50-9616-37947D0CD741
+1795590844: Client auto-C54B156D-88A6-3F50-9616-37947D0CD741 disconnected.
+1795590844: Received DISCONNECT from auto-53553672-2C1F-4EAF-7466-D127C22FABF2
+1795590844: Client auto-53553672-2C1F-4EAF-7466-D127C22FABF2 disconnected.
+1795590866: New connection from 192.168.11.100:37100 on port 1883.
+1795590866: New client connected from 192.168.11.100:37100 as auto-2CCF0531-BDF4-B9D9-30C9-E379BD96DA54 (p2, c1, k60, u'esp32_bilicheck').
+1795590866: No will message specified.
+1795590866: Sending CONNACK to auto-2CCF0531-BDF4-B9D9-30C9-E379BD96DA54 (0, 0)
+1795590866: Received SUBSCRIBE from auto-2CCF0531-BDF4-B9D9-30C9-E379BD96DA54
+1795590866: 	bilicheck/puskesmas01/dev-test/telemetry (QoS 0)
+1795590866: auto-2CCF0531-BDF4-B9D9-30C9-E379BD96DA54 0 bilicheck/puskesmas01/dev-test/telemetry
+1795590866: Sending SUBACK to auto-2CCF0531-BDF4-B9D9-30C9-E379BD96DA54
+1795590877: New connection from 192.168.11.100:42840 on port 1883.
+1795590877: New client connected from 192.168.11.100:42840 as auto-D3ACCF71-C724-B9A5-7ABB-B47C70EB9039 (p2, c1, k60, u'esp32_bilicheck').
+1795590877: No will message specified.
+1795590877: Sending CONNACK to auto-D3ACCF71-C724-B9A5-7ABB-B47C70EB9039 (0, 0)
+1795590877: Received PUBLISH from auto-D3ACCF71-C724-B9A5-7ABB-B47C70EB9039 (d0, q0, r0, m0, 'bilicheck/puskesmas01/dev-test/telemetry', ... (40 bytes))
+1795590877: Sending PUBLISH to auto-2CCF0531-BDF4-B9D9-30C9-E379BD96DA54 (d0, q0, r0, m0, 'bilicheck/puskesmas01/dev-test/telemetry', ... (40 bytes))
+1795590877: Received DISCONNECT from auto-D3ACCF71-C724-B9A5-7ABB-B47C70EB9039
+1795590877: Client auto-D3ACCF71-C724-B9A5-7ABB-B47C70EB9039 disconnected.
+1795590877: Received DISCONNECT from auto-2CCF0531-BDF4-B9D9-30C9-E379BD96DA54
+1795590877: Client auto-2CCF0531-BDF4-B9D9-30C9-E379BD96DA54 disconnected.
+1795592145: mosquitto version 2.0.18 starting
+1795592145: Config loaded from /etc/mosquitto/mosquitto.conf.
+1795592145: Opening ipv4 listen socket on port 1883.
+1795592145: mosquitto version 2.0.18 running
+1795593950: Saving in-memory database to /var/lib/mosquitto//mosquitto.db.
+1795595751: Saving in-memory database to /var/lib/mosquitto//mosquitto.db.
+1795597552: Saving in-memory database to /var/lib/mosquitto//mosquitto.db.
+1795599353: Saving in-memory database to /var/lib/mosquitto//mosquitto.db.
+1795601154: Saving in-memory database to /var/lib/mosquitto//mosquitto.db.
+1795602955: Saving in-memory database to /var/lib/mosquitto//mosquitto.db.
+1795604756: Saving in-memory database to /var/lib/mosquitto//mosquitto.db.
+1795606557: Saving in-memory database to /var/lib/mosquitto//mosquitto.db.
+1795608358: Saving in-memory database to /var/lib/mosquitto//mosquitto.db.
+1795610159: Saving in-memory database to /var/lib/mosquitto//mosquitto.db.
+1795611960: Saving in-memory database to /var/lib/mosquitto//mosquitto.db.
+1795613761: Saving in-memory database to /var/lib/mosquitto//mosquitto.db.
+1795615562: Saving in-memory database to /var/lib/mosquitto//mosquitto.db.
+1795617363: Saving in-memory database to /var/lib/mosquitto//mosquitto.db.
+1795619164: Saving in-memory database to /var/lib/mosquitto//mosquitto.db.
+1795620965: Saving in-memory database to /var/lib/mosquitto//mosquitto.db.
+1795622766: Saving in-memory database to /var/lib/mosquitto//mosquitto.db.
+1795656218: mosquitto version 2.0.18 starting
+1795656218: Config loaded from /etc/mosquitto/mosquitto.conf.
+1795656218: Opening ipv4 listen socket on port 1883.
+1795656218: mosquitto version 2.0.18 running

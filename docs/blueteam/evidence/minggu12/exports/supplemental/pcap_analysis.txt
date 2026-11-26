@@ -1,0 +1,19 @@
+reading from file /home/socadmin/DFIR_M12_20261126T014140Z/supplemental/M12_SUPPLEMENTAL_20261126T024424Z.pcap, link-type EN10MB (Ethernet), snapshot length 262144
+2026-11-26 09:45:11.623850 IP (tos 0x0, ttl 64, id 63265, offset 0, flags [DF], proto TCP (6), length 60)
+    192.168.11.100.60046 > 192.168.11.5.22: Flags [S], cksum 0x444d (correct), seq 4079069627, win 64240, options [mss 1460,sackOK,TS val 74310934 ecr 0,nop,wscale 9], length 0
+2026-11-26 09:45:11.624784 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 60)
+    192.168.11.5.22 > 192.168.11.100.60046: Flags [S.], cksum 0x97e8 (incorrect -> 0x2d0f), seq 3319074726, ack 4079069628, win 65160, options [mss 1460,sackOK,TS val 3762707924 ecr 74310934,nop,wscale 7], length 0
+2026-11-26 09:45:11.626553 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 60)
+    192.168.11.5.22 > 192.168.11.100.60046: Flags [S.], cksum 0x97e8 (incorrect -> 0x2d0e), seq 3319074726, ack 4079069628, win 65160, options [mss 1460,sackOK,TS val 3762707925 ecr 74310934,nop,wscale 7], length 0
+2026-11-26 09:45:11.628148 IP (tos 0x0, ttl 64, id 63266, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.11.100.60046 > 192.168.11.5.22: Flags [.], cksum 0x59e1 (correct), seq 1, ack 1, win 126, options [nop,nop,TS val 74310939 ecr 3762707924], length 0
+2026-11-26 09:45:11.628686 IP (tos 0x0, ttl 64, id 63267, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.11.100.60046 > 192.168.11.5.22: Flags [.], cksum 0x59e1 (correct), seq 1, ack 1, win 126, options [nop,nop,TS val 74310939 ecr 3762707924], length 0
+2026-11-26 09:45:11.629541 IP (tos 0x0, ttl 64, id 63268, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.11.100.60046 > 192.168.11.5.22: Flags [F.], cksum 0x59de (correct), seq 1, ack 1, win 126, options [nop,nop,TS val 74310941 ecr 3762707924], length 0
+2026-11-26 09:45:11.632049 IP (tos 0x0, ttl 64, id 18350, offset 0, flags [DF], proto TCP (6), length 52)
+    192.168.11.5.22 > 192.168.11.100.60046: Flags [.], cksum 0x97e0 (incorrect -> 0x5857), seq 1, ack 2, win 510, options [nop,nop,TS val 3762707931 ecr 74310941], length 0
+2026-11-26 09:45:11.774257 IP (tos 0x0, ttl 64, id 18351, offset 0, flags [DF], proto TCP (6), length 95)
+    192.168.11.5.22 > 192.168.11.100.60046: Flags [P.], cksum 0x980b (incorrect -> 0x0338), seq 1:44, ack 2, win 510, options [nop,nop,TS val 3762708073 ecr 74310941], length 43: SSH: SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.20
+2026-11-26 09:45:11.775213 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 40)
+    192.168.11.100.60046 > 192.168.11.5.22: Flags [R], cksum 0x90a2 (correct), seq 4079069629, win 0, length 0

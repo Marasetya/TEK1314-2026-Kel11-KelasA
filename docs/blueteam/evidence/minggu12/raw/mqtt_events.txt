@@ -1,0 +1,26 @@
+2026-11-25T02:49:14.889902+00:00 target-bilicheck systemd[1]: Starting mosquitto.service - Mosquitto MQTT Broker...
+2026-11-25T02:49:23.254866+00:00 target-bilicheck mosquitto[987]: 1795574963: Loading config file /etc/mosquitto/conf.d/bilicheck-lab.conf
+2026-11-25T02:49:24.764247+00:00 target-bilicheck systemd[1]: Started mosquitto.service - Mosquitto MQTT Broker.
+2026-11-25T03:22:47.528551+00:00 target-bilicheck mosquitto[987]: warning: can't get client address: Connection reset by peer
+2026-11-25T03:39:40.013619+00:00 target-bilicheck systemd[1]: Stopping mosquitto.service - Mosquitto MQTT Broker...
+2026-11-25T03:39:40.075511+00:00 target-bilicheck systemd[1]: mosquitto.service: Deactivated successfully.
+2026-11-25T03:39:40.078864+00:00 target-bilicheck systemd[1]: Stopped mosquitto.service - Mosquitto MQTT Broker.
+2026-11-25T03:39:40.080483+00:00 target-bilicheck systemd[1]: mosquitto.service: Consumed 3.058s CPU time.
+2026-11-25T03:39:40.096449+00:00 target-bilicheck systemd[1]: Starting mosquitto.service - Mosquitto MQTT Broker...
+2026-11-25T03:39:40.183750+00:00 target-bilicheck mosquitto[1969]: 1795577980: Loading config file /etc/mosquitto/conf.d/bilicheck-lab.conf
+2026-11-25T03:39:40.191192+00:00 target-bilicheck systemd[1]: Started mosquitto.service - Mosquitto MQTT Broker.
+2026-11-25T03:43:24.311561+00:00 target-bilicheck systemd[1]: Stopping mosquitto.service - Mosquitto MQTT Broker...
+2026-11-25T03:43:24.366418+00:00 target-bilicheck systemd[1]: mosquitto.service: Deactivated successfully.
+2026-11-25T03:43:24.368200+00:00 target-bilicheck systemd[1]: Stopped mosquitto.service - Mosquitto MQTT Broker.
+2026-11-25T03:43:24.381794+00:00 target-bilicheck systemd[1]: Starting mosquitto.service - Mosquitto MQTT Broker...
+2026-11-25T03:43:24.501312+00:00 target-bilicheck mosquitto[2013]: 1795578204: Loading config file /etc/mosquitto/conf.d/bilicheck-lab.conf
+2026-11-25T03:43:24.504526+00:00 target-bilicheck systemd[1]: Started mosquitto.service - Mosquitto MQTT Broker.
+2026-11-25T04:02:38.206990+00:00 target-bilicheck mosquitto[2013]: warning: can't get client address: Connection reset by peer
+-- Boot 07aa7b8b49ae4512b5a46e41d99bc08c --
+2026-11-25T05:25:40.377626+00:00 target-bilicheck systemd[1]: Starting mosquitto.service - Mosquitto MQTT Broker...
+2026-11-25T05:25:48.611187+00:00 target-bilicheck mosquitto[934]: 1795584348: Loading config file /etc/mosquitto/conf.d/bilicheck-lab.conf
+2026-11-25T05:25:49.263133+00:00 target-bilicheck systemd[1]: Started mosquitto.service - Mosquitto MQTT Broker.
+-- Boot 42bbc9bbf8f74c0aa2b444416ffec2f4 --
+2026-11-25T07:35:44.021231+00:00 target-bilicheck systemd[1]: Starting mosquitto.service - Mosquitto MQTT Broker...
+2026-11-25T07:35:46.007397+00:00 target-bilicheck mosquitto[879]: 1795592145: Loading config file /etc/mosquitto/conf.d/bilicheck-lab.conf
+2026-11-25T07:35:46.051621+00:00 target-bilicheck systemd[1]: Started mosquitto.service - Mosquitto MQTT Broker.

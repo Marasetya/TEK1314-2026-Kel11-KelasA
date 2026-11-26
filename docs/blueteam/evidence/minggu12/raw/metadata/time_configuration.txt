@@ -1,0 +1,7 @@
+               Local time: Thu 2026-11-26 08:41:43 WIB
+           Universal time: Thu 2026-11-26 01:41:43 UTC
+                 RTC time: Thu 2026-11-26 01:41:45
+                Time zone: Asia/Jakarta (WIB, +0700)
+System clock synchronized: yes
+              NTP service: active
+          RTC in local TZ: no

@@ -1,0 +1,33 @@
+2026-11-25T02:49:23.828308+00:00 target-bilicheck systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+2026-11-25T02:49:25.457780+00:00 target-bilicheck sshd[1019]: Server listening on 0.0.0.0 port 22.
+2026-11-25T02:49:25.495464+00:00 target-bilicheck sshd[1019]: Server listening on :: port 22.
+2026-11-25T02:49:25.596405+00:00 target-bilicheck systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+2026-11-25T02:51:58.934793+00:00 target-bilicheck sshd[1525]: Accepted publickey for socadmin from 10.0.2.2 port 62134 ssh2: ED25519 SHA256:Wb8Xj3di82kXw55WybOiAMyMRY96qu6GoNQJQv54q6M
+2026-11-25T02:51:58.944391+00:00 target-bilicheck sshd[1525]: pam_unix(sshd:session): session opened for user socadmin(uid=1000) by socadmin(uid=0)
+2026-11-25T03:22:48.864887+00:00 target-bilicheck sshd[1885]: Connection closed by 192.168.11.100 port 54078
+2026-11-25T03:45:35.071965+00:00 target-bilicheck sshd[2027]: Invalid user soc_test from 192.168.11.100 port 56324
+2026-11-25T03:45:35.081457+00:00 target-bilicheck sshd[2027]: Connection closed by invalid user soc_test 192.168.11.100 port 56324 [preauth]
+2026-11-25T03:45:57.108279+00:00 target-bilicheck sshd[2030]: Invalid user soc_test from 192.168.11.100 port 35860
+2026-11-25T03:45:57.142982+00:00 target-bilicheck sshd[2030]: Connection closed by invalid user soc_test 192.168.11.100 port 35860 [preauth]
+2026-11-25T03:45:57.308666+00:00 target-bilicheck sshd[2032]: Invalid user soc_test from 192.168.11.100 port 35876
+2026-11-25T03:45:57.328464+00:00 target-bilicheck sshd[2032]: Connection closed by invalid user soc_test 192.168.11.100 port 35876 [preauth]
+2026-11-25T03:45:57.470524+00:00 target-bilicheck sshd[2034]: Invalid user soc_test from 192.168.11.100 port 35884
+2026-11-25T03:45:57.493428+00:00 target-bilicheck sshd[2034]: Connection closed by invalid user soc_test 192.168.11.100 port 35884 [preauth]
+2026-11-25T04:02:39.737176+00:00 target-bilicheck sshd[2061]: Connection closed by 192.168.11.100 port 36722
+2026-11-25T04:03:29.636451+00:00 target-bilicheck sshd[2108]: Connection closed by 192.168.11.100 port 54742
+-- Boot 07aa7b8b49ae4512b5a46e41d99bc08c --
+2026-11-25T05:25:48.979111+00:00 target-bilicheck systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+2026-11-25T05:25:50.354712+00:00 target-bilicheck sshd[969]: Server listening on 0.0.0.0 port 22.
+2026-11-25T05:25:50.359952+00:00 target-bilicheck systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+2026-11-25T05:25:50.354768+00:00 target-bilicheck sshd[969]: Server listening on :: port 22.
+2026-11-25T05:56:41.076087+00:00 target-bilicheck sshd[1530]: Accepted publickey for socadmin from 10.0.2.2 port 63877 ssh2: ED25519 SHA256:Wb8Xj3di82kXw55WybOiAMyMRY96qu6GoNQJQv54q6M
+2026-11-25T05:56:41.092201+00:00 target-bilicheck sshd[1530]: pam_unix(sshd:session): session opened for user socadmin(uid=1000) by socadmin(uid=0)
+-- Boot 42bbc9bbf8f74c0aa2b444416ffec2f4 --
+2026-11-25T07:35:47.076392+00:00 target-bilicheck systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+2026-11-25T07:35:47.776808+00:00 target-bilicheck sshd[941]: Server listening on 0.0.0.0 port 22.
+2026-11-25T07:35:47.776947+00:00 target-bilicheck sshd[941]: Server listening on :: port 22.
+2026-11-25T07:35:47.800912+00:00 target-bilicheck systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+2026-11-25T07:45:04.534563+00:00 target-bilicheck sshd[1458]: Accepted publickey for socadmin from 10.0.2.2 port 51670 ssh2: ED25519 SHA256:Wb8Xj3di82kXw55WybOiAMyMRY96qu6GoNQJQv54q6M
+2026-11-25T07:45:04.541443+00:00 target-bilicheck sshd[1458]: pam_unix(sshd:session): session opened for user socadmin(uid=1000) by socadmin(uid=0)
+2026-11-25T07:46:37.199837+00:00 target-bilicheck sshd[1523]: Invalid user soc_test from 192.168.11.100 port 38750
+2026-11-25T07:46:37.219330+00:00 target-bilicheck sshd[1523]: Connection closed by invalid user soc_test 192.168.11.100 port 38750 [preauth]
