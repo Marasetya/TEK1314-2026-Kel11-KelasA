@@ -1,0 +1,56 @@
+# Peta Dokumentasi SOC BiliCheck, Kelompok 11
+
+> **Keterangan file:** Peta utama seluruh dokumen dan folder bukti pada direktori `docs`.
+> **Fungsi:** Menjelaskan fungsi setiap kelompok dokumen, lokasi bukti, dan pembagian peran yang berlaku.
+> **Penanggung jawab:** Lead Moh Rifky Marasetya untuk integrasi. Blue Team Adam. Red Team Nayla dan Fauzan.
+> **Status:** Berlaku untuk konsolidasi dokumentasi Minggu 10.
+
+## Pembagian Peran yang Berlaku
+
+| Anggota | Peran | Lingkup |
+| :--- | :--- | :--- |
+| Moh Rifky Marasetya | Lead | Koordinasi, repositori, integrasi dokumentasi, dan laporan. |
+| Nayla Januarisa Prihadi | Red Team | Pelaksanaan skenario pengujian dari Attacker Node bersama Fauzan. |
+| Fauzan Nafis Jiyad Akbar | Red Team | Pelaksanaan skenario pengujian dari Attacker Node bersama Nayla. |
+| Muhammad Adam Ilyasa | Blue Team | Satu-satunya anggota Blue Team. Menangani seluruh pekerjaan pertahanan host, aplikasi, database, MQTT, log, Security Onion, Snort, dan Sguil. |
+
+## Peta Dokumen Utama
+
+| Lokasi | Fungsi |
+| :--- | :--- |
+| `blueteam/hardening_checklist.md` | Daftar kontrol hardening dan status bukti. |
+| `blueteam/monitoring_alert_rules.md` | Matriks DET-01 sampai DET-05. |
+| `redteam/attack_plan.md` | Rencana dan hasil aktual pengujian S1, S2, dan S3. |
+| `purple-team-log.md` | Catatan lima tahap Purple Team Loop. |
+| `weekly-progress/minggu10.md` | Logbook pekerjaan Minggu 10. |
+| `evidence-review-minggu10.md` | Review ketepatan nama, isi, lokasi, dan batas interpretasi screenshot. |
+| `design/ip_plan.md` | Rencana jaringan dan inventaris layanan. |
+| `presentation-minggu9/tech_stack_declaration.md` | Deklarasi tech stack dan replikasi proyek. |
+
+## Peta Folder Bukti
+
+- `blueteam/evidence/application/`: bukti API, database, dan MQTT.
+- `blueteam/evidence/hardening/`: bukti kontrol hardening.
+- `blueteam/evidence/monitoring-seconion/`: bukti Security Onion.
+- `blueteam/evidence/minggu10/`: bukti Blue Team khusus Minggu 10.
+- `redteam/evidence/`: bukti kesiapan Red Team sebelum Minggu 10.
+- `redteam/evidence/minggu10/`: bukti Red Team Minggu 10.
+- `purple-team/evidence/minggu10/`: bukti kolaborasi Purple Team.
+
+## Aturan Membaca Status
+
+`Selesai` atau `Terbukti` hanya digunakan saat terdapat bukti yang mendukung klaim. Gunakan `Sebagian`, `Belum`, atau `Blind spot` untuk hasil yang belum lengkap. Jangan mengubah hasil aktual agar sesuai dengan hasil yang diharapkan.
+
+## Catatan Presentasi Historis
+
+`presentation-minggu9/slides.pdf` disimpan sebagai arsip Minggu 9. Halaman OUR TEAM sudah menunjukkan Adam sebagai Blue Team serta Nayla dan Fauzan sebagai Red Team. Slide Attack Plan pada presentasi merupakan rencana Minggu 9, bukan catatan hasil eksekusi Minggu 10.
+
+## Dokumentasi Minggu 12: Digital Forensics and Incident Response
+
+| Lokasi | Fungsi |
+| :--- | :--- |
+| `blueteam/README_MINGGU12.md` | Panduan dan peta dokumen Blue Team Minggu 12. |
+| `blueteam/incident_response_report_minggu12.md` | Laporan utama DFIR Minggu 12. |
+| `blueteam/evidence/minggu12/` | Bukti mentah, screenshot, ekspor, analisis, chain of custody, timeline, dan manifest SHA-256. |
+
+Aturan Minggu 12: bedakan event historis Sguil, log Ubuntu pada 25 November, dan PCAP tambahan pada 26 November. Jangan menyatakan kompromi atau deteksi yang belum didukung bukti.
