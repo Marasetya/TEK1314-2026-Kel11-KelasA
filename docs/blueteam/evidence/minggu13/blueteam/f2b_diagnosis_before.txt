@@ -1,0 +1,13 @@
+/etc/fail2ban/jail.d/defaults-debian.conf:4:backend = systemd
+/etc/fail2ban/jail.d/defaults-debian.conf:7:enabled = true
+/etc/fail2ban/jail.d/bilicheck.local:2:enabled = true
+/etc/fail2ban/jail.d/bilicheck.local:3:backend = systemd
+/etc/fail2ban/jail.d/bilicheck.local:5:maxretry = 5
+/etc/fail2ban/jail.d/bilicheck.local:6:findtime = 10m
+/etc/fail2ban/jail.d/bilicheck.local:7:bantime = 1h
+Invalid command (no get action or not yet implemented)
+Current match filter:
+_SYSTEMD_UNIT=sshd.service + _COMM=sshd
+5
+600
+3600

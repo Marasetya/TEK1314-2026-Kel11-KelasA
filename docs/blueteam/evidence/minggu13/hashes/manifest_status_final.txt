@@ -1,0 +1,11 @@
+Generated: 2026-11-27T00:42:54+07:00
+DocsRoot: D:\Kuliah Semester 5\SIBER - Keamanan Siber\PJBL\Output\docs
+Files hashed: 229
+PCAP SHA256: 72d1b237c66706675d775a77861f43df290920e90576afbcb88d5b90283d2383
+PCAP sidecar SHA256: 72d1b237c66706675d775a77861f43df290920e90576afbcb88d5b90283d2383
+PCAP verification: COCOK
+Sguil screenshot present: True
+Audit items found: 25
+Audit items missing: 1
+Manifest files excluded from their own hash list.
+Sensitive credential/key/environment files excluded by filename pattern.

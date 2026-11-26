@@ -1,0 +1,50 @@
+● ssh.service - OpenBSD Secure Shell server
+     Loaded: loaded (/usr/lib/systemd/system/ssh.service; enabled; preset: enabled)
+     Active: active (running) since Thu 2026-11-26 09:18:22 WIB; 4h 13min ago
+TriggeredBy: ● ssh.socket
+       Docs: man:sshd(8)
+             man:sshd_config(5)
+   Main PID: 9133 (sshd)
+      Tasks: 1 (limit: 4600)
+     Memory: 1.4M (peak: 4.0M)
+        CPU: 334ms
+     CGroup: /system.slice/ssh.service
+             └─9133 "sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups"
+
+Nov 26 09:18:22 target-bilicheck sshd[9133]: Server listening on 0.0.0.0 port 22.
+Nov 26 09:18:22 target-bilicheck sshd[9133]: Server listening on :: port 22.
+Nov 26 09:18:22 target-bilicheck systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Nov 26 09:45:11 target-bilicheck sshd[9980]: Connection closed by 192.168.11.100 port 60046
+Nov 26 13:27:39 target-bilicheck sshd[21811]: Accepted publickey for socadmin from 10.0.2.2 port 54650 ssh2: ED25519 SHA256:Wb8Xj3di82kXw55WybOiAMyMRY96qu6GoNQJQv54q6M
+Nov 26 13:27:39 target-bilicheck sshd[21811]: pam_unix(sshd:session): session opened for user socadmin(uid=1000) by socadmin(uid=0)
+
+● fail2ban.service - Fail2Ban Service
+     Loaded: loaded (/usr/lib/systemd/system/fail2ban.service; enabled; preset: enabled)
+     Active: active (running) since Thu 2026-11-26 09:18:22 WIB; 4h 13min ago
+       Docs: man:fail2ban(1)
+   Main PID: 9183 (fail2ban-server)
+      Tasks: 5 (limit: 4600)
+     Memory: 18.9M (peak: 19.4M)
+        CPU: 28.974s
+     CGroup: /system.slice/fail2ban.service
+             └─9183 /usr/bin/python3 /usr/bin/fail2ban-server -xf start
+
+Nov 26 09:18:22 target-bilicheck systemd[1]: Started fail2ban.service - Fail2Ban Service.
+Nov 26 09:18:23 target-bilicheck fail2ban-server[9183]: 2026-11-26 09:18:23,083 fail2ban.configreader   [9183]: WARNING 'allowipv6' not defined in 'Definition'. Using default one: 'auto'
+Nov 26 09:18:23 target-bilicheck fail2ban-server[9183]: Server ready
+
+● mosquitto.service - Mosquitto MQTT Broker
+     Loaded: loaded (/usr/lib/systemd/system/mosquitto.service; enabled; preset: enabled)
+     Active: active (running) since Thu 2026-11-26 09:18:22 WIB; 4h 13min ago
+       Docs: man:mosquitto.conf(5)
+             man:mosquitto(8)
+   Main PID: 9131 (mosquitto)
+      Tasks: 1 (limit: 4600)
+     Memory: 1.0M (peak: 1.3M)
+        CPU: 16.461s
+     CGroup: /system.slice/mosquitto.service
+             └─9131 /usr/sbin/mosquitto -c /etc/mosquitto/mosquitto.conf
+
+Nov 26 09:18:21 target-bilicheck systemd[1]: Starting mosquitto.service - Mosquitto MQTT Broker...
+Nov 26 09:18:22 target-bilicheck mosquitto[9131]: 1795659502: Loading config file /etc/mosquitto/conf.d/bilicheck-lab.conf
+Nov 26 09:18:22 target-bilicheck systemd[1]: Started mosquitto.service - Mosquitto MQTT Broker.

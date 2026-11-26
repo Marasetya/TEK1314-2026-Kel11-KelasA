@@ -1,0 +1,30 @@
+1795678275: Config loaded from /etc/mosquitto/mosquitto.conf.
+1795678275: Opening ipv4 listen socket on port 1883.
+1795678275: mosquitto version 2.0.18 running
+1795680078: Saving in-memory database to /var/lib/mosquitto//mosquitto.db.
+1795681879: Saving in-memory database to /var/lib/mosquitto//mosquitto.db.
+1795688386: mosquitto version 2.0.18 starting
+1795688386: Config loaded from /etc/mosquitto/mosquitto.conf.
+1795688386: Opening ipv4 listen socket on port 1883.
+1795688386: mosquitto version 2.0.18 running
+1795688959: New connection from 192.168.11.100:50678 on port 1883.
+1795688959: Sending CONNACK to auto-1216DEB6-4F04-E187-C962-689F46DC7C22 (0, 5)
+1795688959: Client auto-1216DEB6-4F04-E187-C962-689F46DC7C22 disconnected, not authorised.
+1795688959: New connection from 192.168.11.100:50690 on port 1883.
+1795688959: New client connected from 192.168.11.100:50690 as auto-CBD89C4D-5DDF-660D-66FB-12B00D3F0582 (p2, c1, k60, u'esp32_bilicheck').
+1795688959: No will message specified.
+1795688959: Sending CONNACK to auto-CBD89C4D-5DDF-660D-66FB-12B00D3F0582 (0, 0)
+1795688959: Received SUBSCRIBE from auto-CBD89C4D-5DDF-660D-66FB-12B00D3F0582
+1795688959: 	bilicheck/puskesmas01/dev-test/telemetry (QoS 0)
+1795688959: auto-CBD89C4D-5DDF-660D-66FB-12B00D3F0582 0 bilicheck/puskesmas01/dev-test/telemetry
+1795688959: Sending SUBACK to auto-CBD89C4D-5DDF-660D-66FB-12B00D3F0582
+1795688960: New connection from 192.168.11.100:50704 on port 1883.
+1795688960: New client connected from 192.168.11.100:50704 as auto-DF2A2D34-96FF-6EE5-348E-837C4F2F9345 (p2, c1, k60, u'esp32_bilicheck').
+1795688960: No will message specified.
+1795688960: Sending CONNACK to auto-DF2A2D34-96FF-6EE5-348E-837C4F2F9345 (0, 0)
+1795688960: Received PUBLISH from auto-DF2A2D34-96FF-6EE5-348E-837C4F2F9345 (d0, q0, r0, m0, 'bilicheck/puskesmas01/dev-test/telemetry', ... (53 bytes))
+1795688960: Sending PUBLISH to auto-CBD89C4D-5DDF-660D-66FB-12B00D3F0582 (d0, q0, r0, m0, 'bilicheck/puskesmas01/dev-test/telemetry', ... (53 bytes))
+1795688960: Received DISCONNECT from auto-DF2A2D34-96FF-6EE5-348E-837C4F2F9345
+1795688960: Client auto-DF2A2D34-96FF-6EE5-348E-837C4F2F9345 disconnected.
+1795688960: Received DISCONNECT from auto-CBD89C4D-5DDF-660D-66FB-12B00D3F0582
+1795688960: Client auto-CBD89C4D-5DDF-660D-66FB-12B00D3F0582 disconnected.

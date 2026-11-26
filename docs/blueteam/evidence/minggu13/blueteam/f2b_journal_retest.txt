@@ -1,0 +1,8 @@
+2026-11-26T08:34:31.503681+00:00 target-bilicheck systemd[1]: Stopping fail2ban.service - Fail2Ban Service...
+2026-11-26T08:34:31.855159+00:00 target-bilicheck fail2ban-client[1693]: Shutdown successful
+2026-11-26T08:34:31.887032+00:00 target-bilicheck systemd[1]: fail2ban.service: Deactivated successfully.
+2026-11-26T08:34:31.887866+00:00 target-bilicheck systemd[1]: Stopped fail2ban.service - Fail2Ban Service.
+2026-11-26T08:34:31.888192+00:00 target-bilicheck systemd[1]: fail2ban.service: Consumed 23.897s CPU time.
+2026-11-26T08:34:31.903030+00:00 target-bilicheck systemd[1]: Started fail2ban.service - Fail2Ban Service.
+2026-11-26T08:34:32.051787+00:00 target-bilicheck fail2ban-server[1696]: 2026-11-26 15:34:32,049 fail2ban.configreader   [1696]: WARNING 'allowipv6' not defined in 'Definition'. Using default one: 'auto'
+2026-11-26T08:34:32.365428+00:00 target-bilicheck fail2ban-server[1696]: Server ready

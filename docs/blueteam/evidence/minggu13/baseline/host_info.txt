@@ -1,0 +1,14 @@
+ Static hostname: target-bilicheck
+       Icon name: computer-vm
+         Chassis: vm 🖴
+      Machine ID: 8fb3c8bf5e194f5d9da7a066062c6079
+         Boot ID: 1980acd2303c46c5b77e6e63a591c4a1
+  Virtualization: oracle
+Operating System: Ubuntu 24.04.5 LTS
+          Kernel: Linux 6.8.0-147-generic
+    Architecture: x86-64
+ Hardware Vendor: innotek GmbH
+  Hardware Model: VirtualBox
+Firmware Version: VirtualBox
+   Firmware Date: Fri 2006-12-01
+    Firmware Age: 19y 11month 3w 4d

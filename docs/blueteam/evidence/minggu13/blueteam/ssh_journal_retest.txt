@@ -1,0 +1,14 @@
+2026-11-26T08:32:49.375001+00:00 target-bilicheck sshd[1579]: Accepted publickey for socadmin from 10.0.2.2 port 62968 ssh2: ED25519 SHA256:Wb8Xj3di82kXw55WybOiAMyMRY96qu6GoNQJQv54q6M
+2026-11-26T08:32:49.389036+00:00 target-bilicheck sshd[1579]: pam_unix(sshd:session): session opened for user socadmin(uid=1000) by socadmin(uid=0)
+2026-11-26T08:35:06.336750+00:00 target-bilicheck sshd[1713]: Connection closed by authenticating user socadmin 192.168.11.100 port 47702 [preauth]
+2026-11-26T08:35:07.473946+00:00 target-bilicheck sshd[1715]: Connection closed by authenticating user socadmin 192.168.11.100 port 47718 [preauth]
+2026-11-26T08:35:08.608958+00:00 target-bilicheck sshd[1717]: Connection closed by authenticating user socadmin 192.168.11.100 port 47724 [preauth]
+2026-11-26T08:35:09.733137+00:00 target-bilicheck sshd[1719]: Connection closed by authenticating user socadmin 192.168.11.100 port 47732 [preauth]
+2026-11-26T08:35:10.895989+00:00 target-bilicheck sshd[1721]: Connection closed by authenticating user socadmin 192.168.11.100 port 47736 [preauth]
+2026-11-26T08:35:06.336750+00:00 target-bilicheck sshd[1713]: Connection closed by authenticating user socadmin 192.168.11.100 port 47702 [preauth]
+2026-11-26T08:35:07.473946+00:00 target-bilicheck sshd[1715]: Connection closed by authenticating user socadmin 192.168.11.100 port 47718 [preauth]
+2026-11-26T08:35:08.608958+00:00 target-bilicheck sshd[1717]: Connection closed by authenticating user socadmin 192.168.11.100 port 47724 [preauth]
+2026-11-26T08:35:09.733137+00:00 target-bilicheck sshd[1719]: Connection closed by authenticating user socadmin 192.168.11.100 port 47732 [preauth]
+2026-11-26T08:35:10.895989+00:00 target-bilicheck sshd[1721]: Connection closed by authenticating user socadmin 192.168.11.100 port 47736 [preauth]
+2026-11-26T08:35:53.238143+00:00 target-bilicheck sshd[1740]: Invalid user invalid_m13_test from 192.168.11.100 port 42492
+2026-11-26T08:35:53.248479+00:00 target-bilicheck sshd[1740]: Connection closed by invalid user invalid_m13_test 192.168.11.100 port 42492 [preauth]

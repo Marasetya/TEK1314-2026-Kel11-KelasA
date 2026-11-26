@@ -1,0 +1,9 @@
+Generated UTC: 2026-11-26T14:31:23Z
+M13 folder: D:\Kuliah Semester 5\SIBER - Keamanan Siber\PJBL\Output\docs\blueteam\evidence\minggu13
+PCAP SHA256: 72d1b237c66706675d775a77861f43df290920e90576afbcb88d5b90283d2383
+PCAP known hash status: PASS
+PCAP sidecar status: MATCH
+Sguil screenshot present: True
+The manifest CSV and TXT are excluded from their own hash list.
+The screenshot m13-10-sha256-manifest.png is excluded because it is captured after manifest generation.
+Required screenshots 01-09: all present.

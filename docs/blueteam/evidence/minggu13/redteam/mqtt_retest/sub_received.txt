@@ -1,0 +1,1 @@
+bilicheck/puskesmas01/dev-test/telemetry {"deviceId":"BC-TEST-001","rawAdc":2048,"test":"M13"}

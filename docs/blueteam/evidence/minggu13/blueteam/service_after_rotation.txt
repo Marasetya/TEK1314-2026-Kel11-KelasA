@@ -1,0 +1,12 @@
+● bilicheck-api.service - BiliCheck Lab API - ADC Input Validation
+     Loaded: loaded (/etc/systemd/system/bilicheck-api.service; enabled; preset: enabled)
+    Drop-In: /etc/systemd/system/bilicheck-api.service.d
+             └─override.conf
+     Active: active (running) since Thu 2026-11-26 15:37:32 WIB; 1s ago
+   Main PID: 1830 (python3)
+      Tasks: 1 (limit: 4600)
+     Memory: 13.8M (peak: 14.1M)
+        CPU: 235ms
+     CGroup: /system.slice/bilicheck-api.service
+             └─1830 /usr/bin/python3 -B /opt/bilicheck-api/app.py
+

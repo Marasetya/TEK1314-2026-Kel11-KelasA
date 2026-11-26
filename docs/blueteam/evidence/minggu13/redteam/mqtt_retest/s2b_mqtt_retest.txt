@@ -1,0 +1,13 @@
+=== 1. UJI ANONYMOUS MQTT: 2026-11-26T10:29:17+00:00 ===
+Connection error: Connection Refused: not authorised
+Client null sending CONNECT
+Client (null) received CONNACK (5)
+Client null sending DISCONNECT
+
+=== 2. UJI AUTHENTICATED PUB/SUB: 2026-11-26T10:29:17+00:00 ===
+Client null sending CONNECT
+Client (null) received CONNACK (0)
+Client null sending PUBLISH (d0, q0, r0, m1, 'bilicheck/puskesmas01/dev-test/telemetry', ... (53 bytes))
+Client null sending DISCONNECT
+Pesan diterima subscriber:
+bilicheck/puskesmas01/dev-test/telemetry {"deviceId":"BC-TEST-001","rawAdc":2048,"test":"M13"}

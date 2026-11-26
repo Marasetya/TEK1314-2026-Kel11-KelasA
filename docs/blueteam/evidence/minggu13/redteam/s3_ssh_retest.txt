@@ -1,0 +1,12 @@
+=== S3 RETEST START: 2026-11-26T10:06:49+00:00 ===
+Attempt 1 — 2026-11-26T10:06:49+00:00
+socadmin@192.168.11.5: Permission denied (publickey).
+Attempt 2 — 2026-11-26T10:06:50+00:00
+socadmin@192.168.11.5: Permission denied (publickey).
+Attempt 3 — 2026-11-26T10:06:51+00:00
+socadmin@192.168.11.5: Permission denied (publickey).
+Attempt 4 — 2026-11-26T10:06:53+00:00
+socadmin@192.168.11.5: Permission denied (publickey).
+Attempt 5 — 2026-11-26T10:06:54+00:00
+socadmin@192.168.11.5: Permission denied (publickey).
+=== S3 RETEST END: 2026-11-26T10:06:55+00:00 ===

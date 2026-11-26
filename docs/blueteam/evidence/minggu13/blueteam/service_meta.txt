@@ -1,0 +1,3 @@
+EnvironmentFiles=/etc/bilicheck-api/bilicheck-api.env (ignore_errors=no)
+EnvironmentFiles=/etc/bilicheck-api/database.env (ignore_errors=no)
+FragmentPath=/etc/systemd/system/bilicheck-api.service

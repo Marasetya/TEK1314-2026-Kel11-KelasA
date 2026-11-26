@@ -1,0 +1,7 @@
+  bilicheck-api.service                                                                     loaded    active   running BiliCheck Lab API - ADC Input Validation
+  blk-availability.service                                                                  loaded    active   exited  Availability of block devices
+  kmod-static-nodes.service                                                                 loaded    active   exited  Create List of Static Device Nodes
+  rc-local.service                                                                          loaded    inactive dead    /etc/rc.local Compatibility
+  systemd-initctl.service                                                                   loaded    inactive dead    initctl Compatibility Daemon
+  systemd-tmpfiles-setup-dev-early.service                                                  loaded    active   exited  Create Static Device Nodes in /dev gracefully
+  systemd-tmpfiles-setup-dev.service                                                        loaded    active   exited  Create Static Device Nodes in /dev

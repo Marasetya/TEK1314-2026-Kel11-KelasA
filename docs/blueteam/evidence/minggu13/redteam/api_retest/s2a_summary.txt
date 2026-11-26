@@ -1,0 +1,5 @@
+=== S2A API RETEST: 2026-11-26T10:14:09+00:00 ===
+1. No token              -> HTTP 401
+2. Old token (revoked)   -> HTTP 401
+3. New token / ADC 2048  -> HTTP 202
+4. New token / ADC 4096  -> HTTP 422

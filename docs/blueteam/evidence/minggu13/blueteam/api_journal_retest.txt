@@ -1,0 +1,4 @@
+2026-11-26T08:42:26.685592+00:00 target-bilicheck python3[1830]: 192.168.11.100 - "POST /api/telemetry HTTP/1.1" 401 -
+2026-11-26T08:42:26.710717+00:00 target-bilicheck python3[1830]: 192.168.11.100 - "POST /api/telemetry HTTP/1.1" 401 -
+2026-11-26T08:42:27.153819+00:00 target-bilicheck python3[1830]: 192.168.11.100 - "POST /api/telemetry HTTP/1.1" 202 -
+2026-11-26T08:42:27.171511+00:00 target-bilicheck python3[1830]: 192.168.11.100 - "POST /api/telemetry HTTP/1.1" 422 -

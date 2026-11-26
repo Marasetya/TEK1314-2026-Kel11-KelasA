@@ -1,0 +1,35 @@
+=== FINAL POSTURE CHECK: 2026-11-26T12:09:44+00:00 ===
+Status: active
+
+     To                         Action      From
+     --                         ------      ----
+[ 1] 22/tcp                     ALLOW IN    Anywhere                   # SSH via VirtualBox port forwarding
+[ 2] 192.168.11.5 5000/tcp      ALLOW IN    192.168.11.0/24            # BiliCheck lab API validation
+[ 3] 1883/tcp                   ALLOW IN    192.168.11.100             # BiliCheck MQTT lab from Kali
+[ 4] 22/tcp (v6)                ALLOW IN    Anywhere (v6)              # SSH via VirtualBox port forwarding
+
+
+Netid State  Recv-Q Send-Q    Local Address:Port  Peer Address:PortProcess                                               
+udp   UNCONN 0      0            127.0.0.54:53         0.0.0.0:*    users:(("systemd-resolve",pid=589,fd=16))            
+udp   UNCONN 0      0         127.0.0.53%lo:53         0.0.0.0:*    users:(("systemd-resolve",pid=589,fd=14))            
+udp   UNCONN 0      0      10.0.2.15%enp0s3:68         0.0.0.0:*    users:(("systemd-network",pid=761,fd=22))            
+tcp   LISTEN 0      100           127.0.0.1:25         0.0.0.0:*    users:(("master",pid=1308,fd=13))                    
+tcp   LISTEN 0      4096            0.0.0.0:22         0.0.0.0:*    users:(("sshd",pid=970,fd=3),("systemd",pid=1,fd=92))
+tcp   LISTEN 0      70            127.0.0.1:33060      0.0.0.0:*    users:(("mysqld",pid=972,fd=31))                     
+tcp   LISTEN 0      4096         127.0.0.54:53         0.0.0.0:*    users:(("systemd-resolve",pid=589,fd=17))            
+tcp   LISTEN 0      5          192.168.11.5:5000       0.0.0.0:*    users:(("python3",pid=849,fd=3))                     
+tcp   LISTEN 0      151           127.0.0.1:3306       0.0.0.0:*    users:(("mysqld",pid=972,fd=33))                     
+tcp   LISTEN 0      4096      127.0.0.53%lo:53         0.0.0.0:*    users:(("systemd-resolve",pid=589,fd=15))            
+tcp   LISTEN 0      100        192.168.11.5:1883       0.0.0.0:*    users:(("mosquitto",pid=919,fd=5))                   
+tcp   LISTEN 0      4096               [::]:22            [::]:*    users:(("sshd",pid=970,fd=4),("systemd",pid=1,fd=93))
+tcp   LISTEN 0      100               [::1]:25            [::]:*    users:(("master",pid=1308,fd=14))                    
+
+Status for the jail: sshd
+|- Filter
+|  |- Currently failed:	0
+|  |- Total failed:	0
+|  `- Journal matches:	_SYSTEMD_UNIT=ssh.service + _COMM=sshd
+`- Actions
+   |- Currently banned:	0
+   |- Total banned:	0
+   `- Banned IP list:	

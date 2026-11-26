@@ -1,0 +1,12 @@
+Status: active
+Logging: on (low)
+Default: deny (incoming), allow (outgoing), disabled (routed)
+New profiles: skip
+
+To                         Action      From
+--                         ------      ----
+22/tcp                     ALLOW IN    Anywhere                   # SSH via VirtualBox port forwarding
+192.168.11.5 5000/tcp      ALLOW IN    192.168.11.0/24            # BiliCheck lab API validation
+1883/tcp                   ALLOW IN    192.168.11.100             # BiliCheck MQTT lab from Kali
+22/tcp (v6)                ALLOW IN    Anywhere (v6)              # SSH via VirtualBox port forwarding
+
