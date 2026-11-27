@@ -83,4 +83,4 @@ Seluruh pengujian dilaksanakan secara **terisolasi dan tanpa risiko (*zero-risk 
 ### Fase 3 — Laporan Akhir, Presentasi, & Video Demo (Minggu 14–15)
 - **Incident Report Final (PDF):** [`docs/final/incident_report.pdf`](docs/final/incident_report.pdf)
 - **Slide Presentasi Akhir (PDF):** [`docs/presentation-final/slides.pdf`](docs/presentation-final/slides.pdf)
-- **Video Demo Siklus Purple Team Loop (`.mp4`):** [`docs/video`](ddocs/video/video_demo.mp4.pdf) *(Skenario serangan, deteksi Security Onion, mitigasi Blue Team, dan verifikasi serangan ulang)*
+- **Video Demo Siklus Purple Team Loop (`.mp4`):** [`docs/video/video_demo.mp4.pdf`](docs/video/video_demo.mp4.pdf) *(Skenario serangan, deteksi Security Onion, mitigasi Blue Team, dan verifikasi serangan ulang)*
