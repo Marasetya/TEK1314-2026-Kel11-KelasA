@@ -13,7 +13,7 @@ Repositori ini berisi seluruh artefak perancangan, penguatan sistem (*hardening*
 | **Mata Kuliah** | TEK1314 – Keamanan Siber |
 | **Kelas / Kelompok** | Kelas A – Kelompok 11 |
 | **Program Studi** | Teknologi Rekayasa Komputer, Sekolah Vokasi, IPB University |
-| **Dosen Pengampu** | Shelvie Nidya Neyman |
+| **Dosen Pengampu** | Dr. Shelvie Nidya Neyman, S.Kom., M.Si. dan Lathifunnisa Fathonah, M.T. |
 | **Tahun Akademik** | 2026 |
 
 ### Anggota Tim & Pembagian Peran
